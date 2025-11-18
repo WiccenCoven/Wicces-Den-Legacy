@@ -45,6 +45,7 @@
   ## Tools
     - NetworkConfigurator
     - SprayPainter
+    - SprayPainterAmmo
     - TRayScanner
     - GasAnalyzer
     - Holoprojector
@@ -73,6 +74,7 @@
     - MailingUnitElectronics
     - APCElectronics
     - SMESMachineCircuitboard
+    - PortableSMESMachineCircuitboard
     - SubstationMachineCircuitboard
     - SmallThrusterMachineCircuitboard
     - SmallGyroscopeMachineCircuitboard
@@ -88,6 +90,9 @@
     - GyroscopeMachineCircuitboard
     - MiniGravityGeneratorCircuitboard
     - MiniStationAnchorCircuitboard
+    - GasRecyclerMachineCircuitboard
+    - PortableScrubberMachineCircuitBoard
+    - ThermomachineFreezerMachineCircuitBoard
   ## Clothing
     - UtilityBelt
     - ConstructionBag
