@@ -3,6 +3,7 @@ using System;
 using Content.Server.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Content.Server.Database.Migrations.Sqlite
 {
     [DbContext(typeof(SqliteServerDbContext))]
-    partial class SqliteServerDbContextModelSnapshot : ModelSnapshot
+    [Migration("20251230064844_AddCharacterIndexToSafetyDepositBox")]
+    partial class AddCharacterIndexToSafetyDepositBox
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.1");
@@ -327,11 +330,6 @@ namespace Content.Server.Database.Migrations.Sqlite
                         .IsRequired()
                         .HasColumnType("TEXT")
                         .HasColumnName("name");
-
-                    b.Property<string>("ShortName")
-                        .IsRequired()
-                        .HasColumnType("TEXT")
-                        .HasColumnName("short_name");
 
                     b.HasKey("Id")
                         .HasName("PK_admin_rank");
@@ -809,9 +807,10 @@ namespace Content.Server.Database.Migrations.Sqlite
                         .HasColumnType("TEXT")
                         .HasColumnName("admin_ooc_color");
 
-                    b.Property<int>("MonoCoins")
-                        .HasColumnType("INTEGER")
-                        .HasColumnName("mono_coins");
+                    b.PrimitiveCollection<string>("ConstructionFavorites")
+                        .IsRequired()
+                        .HasColumnType("TEXT")
+                        .HasColumnName("construction_favorites");
 
                     b.Property<int>("SelectedCharacterSlot")
                         .HasColumnType("INTEGER")
@@ -850,16 +849,6 @@ namespace Content.Server.Database.Migrations.Sqlite
                         .HasColumnType("TEXT")
                         .HasColumnName("char_name");
 
-                    b.Property<string>("Company")
-                        .IsRequired()
-                        .HasColumnType("TEXT")
-                        .HasColumnName("company");
-
-                    b.Property<string>("Customspeciesname")
-                        .IsRequired()
-                        .HasColumnType("TEXT")
-                        .HasColumnName("customspeciesname");
-
                     b.Property<string>("EyeColor")
                         .IsRequired()
                         .HasColumnType("TEXT")
@@ -895,10 +884,6 @@ namespace Content.Server.Database.Migrations.Sqlite
                         .HasColumnType("TEXT")
                         .HasColumnName("hair_name");
 
-                    b.Property<float>("Height")
-                        .HasColumnType("REAL")
-                        .HasColumnName("height");
-
                     b.Property<byte[]>("Markings")
                         .HasColumnType("jsonb")
                         .HasColumnName("markings");
@@ -933,10 +918,6 @@ namespace Content.Server.Database.Migrations.Sqlite
                         .IsRequired()
                         .HasColumnType("TEXT")
                         .HasColumnName("species");
-
-                    b.Property<float>("Width")
-                        .HasColumnType("REAL")
-                        .HasColumnName("width");
 
                     b.HasKey("Id")
                         .HasName("PK_profile");
@@ -1424,18 +1405,9 @@ namespace Content.Server.Database.Migrations.Sqlite
                         .HasColumnType("TEXT")
                         .HasColumnName("box_id");
 
-                    b.Property<string>("BoxSize")
-                        .IsRequired()
-                        .HasColumnType("TEXT")
-                        .HasColumnName("box_size");
-
                     b.Property<int>("CharacterIndex")
                         .HasColumnType("INTEGER")
                         .HasColumnName("character_index");
-
-                    b.Property<string>("Nickname")
-                        .HasColumnType("TEXT")
-                        .HasColumnName("nickname");
 
                     b.Property<string>("OwnerName")
                         .IsRequired()
