@@ -31,6 +31,8 @@
       - Battery   # Prevents power cell farming
       - PowerCell # Prevents power cell farming
       - Implant   # Prevents implant farming
+      tags:
+      - Contraband  # Prevents contraband items
   - type: SafetyDepositBox
   - type: Appearance
   - type: Tag
@@ -68,6 +70,8 @@
       - Battery
       - PowerCell
       - Implant
+      tags:
+      - Contraband
   - type: SafetyDepositBox
   - type: Appearance
   - type: Tag
@@ -92,7 +96,7 @@
   - type: Item
     size: Large
   - type: Storage
-    maxItemSize: Normal
+    maxItemSize: Large
     grid:
     - 0,0,1,5
     blacklist:
@@ -105,6 +109,8 @@
       - Battery
       - PowerCell
       - Implant
+      tags:
+      - Contraband
   - type: SafetyDepositBox
   - type: Appearance
   - type: Tag
