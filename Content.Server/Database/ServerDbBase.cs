@@ -2161,6 +2161,7 @@ INSERT INTO player_round (players_id, rounds_id) VALUES ({players[player]}, {id}
 
             // Clear LastWithdrawn since the box is now safely stored
             box.LastWithdrawn = null;
+            box.LastWithdrawnRoundId = null;
 
             await db.DbContext.SaveChangesAsync(cancel);
         }
@@ -2184,6 +2185,7 @@ INSERT INTO player_round (players_id, rounds_id) VALUES ({players[player]}, {id}
 
         public async Task ClearSafetyDepositBoxItems(
             Guid boxId,
+            int roundId,
             CancellationToken cancel = default)
         {
             await using var db = await GetDb(cancel);
@@ -2199,6 +2201,7 @@ INSERT INTO player_round (players_id, rounds_id) VALUES ({players[player]}, {id}
             
             // Set LastWithdrawn to indicate the box is now in the world
             box.LastWithdrawn = DateTime.UtcNow;
+            box.LastWithdrawnRoundId = roundId;
             
             await db.DbContext.SaveChangesAsync(cancel);
         }
