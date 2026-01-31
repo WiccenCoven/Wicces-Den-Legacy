@@ -50,6 +50,7 @@ public sealed class SafetyDepositBoxSystem : EntitySystem
     [Dependency] private readonly ItemSlotsSystem _itemSlots = default!;
     [Dependency] private readonly SharedLabelSystem _label = default!; // Wicce: LabelSystem -> SharedLabelSystem
     [Dependency] private readonly IServerPreferencesManager _prefsManager = default!;
+    [Dependency] private readonly MetaDataSystem _metaDataSystem = default!;
     [Dependency] private readonly GameTicker _gameTicker = default!;
 
     public override void Initialize()
@@ -116,7 +117,7 @@ public sealed class SafetyDepositBoxSystem : EntitySystem
                 // Withdrawn in current round - deposited only if it has items
                 isDeposited = box.Items.Count > 0;
             }
-            
+
             boxInfoList.Add(new SafetyDepositBoxInfo(
                 box.BoxId,
                 box.OwnerName,
@@ -452,6 +453,31 @@ public sealed class SafetyDepositBoxSystem : EntitySystem
                     Log.Info($"Stored label: {label.CurrentLabel}");
                 }
 
+                // Store entity name if it differs from prototype default
+                if (TryComp<MetaDataComponent>(item, out var metadata))
+                {
+                    var entityName = metadata.EntityName;
+                    var prototypeName = metadata.EntityPrototype?.Name ?? "";
+
+                    // Only store if custom name differs from prototype
+                    if (!string.IsNullOrEmpty(entityName) && entityName != prototypeName)
+                    {
+                        entityData["entityName"] = entityName;
+                        Log.Info($"Stored custom entity name: {entityName}");
+                    }
+
+                    // Store entity description if it differs from prototype default
+                    var entityDesc = metadata.EntityDescription;
+                    var prototypeDesc = metadata.EntityPrototype?.Description ?? "";
+
+                    // Only store if custom description differs from prototype
+                    if (!string.IsNullOrEmpty(entityDesc) && entityDesc != prototypeDesc)
+                    {
+                        entityData["entityDescription"] = entityDesc;
+                        Log.Info($"Stored custom entity description: {entityDesc}");
+                    }
+                }
+
                 // Store stack count if it's a stack
                 if (TryComp<StackComponent>(item, out var stack))
                 {
@@ -566,11 +592,11 @@ public sealed class SafetyDepositBoxSystem : EntitySystem
         }
 
         // Verify box is actually lost (withdrawn in previous round with no items)
-        bool isLost = box.LastWithdrawn.HasValue && 
-                      box.LastWithdrawnRoundId.HasValue && 
-                      box.LastWithdrawnRoundId.Value != _gameTicker.RoundId && 
+        bool isLost = box.LastWithdrawn.HasValue &&
+                      box.LastWithdrawnRoundId.HasValue &&
+                      box.LastWithdrawnRoundId.Value != _gameTicker.RoundId &&
                       box.Items.Count == 0;
-        
+
         if (!isLost)
         {
             ConsolePopup(player, "This box is not lost and cannot be reclaimed.");
@@ -784,6 +810,34 @@ public sealed class SafetyDepositBoxSystem : EntitySystem
                         {
                             _label.Label(itemEntity, labelText);
                             Log.Info($"Restored label: {labelText}");
+                        }
+                    }
+
+                    // Restore entity name if present
+                    if (entityData.ContainsKey("entityName"))
+                    {
+                        var entityName = entityData["entityName"].GetString();
+                        if (!string.IsNullOrEmpty(entityName))
+                        {
+                            if (TryComp<MetaDataComponent>(itemEntity, out var itemMetadata))
+                            {
+                                _metaDataSystem.SetEntityName(itemEntity, entityName, itemMetadata);
+                                Log.Info($"Restored entity name: {entityName}");
+                            }
+                        }
+                    }
+
+                    // Restore entity description if present
+                    if (entityData.ContainsKey("entityDescription"))
+                    {
+                        var entityDescription = entityData["entityDescription"].GetString();
+                        if (!string.IsNullOrEmpty(entityDescription))
+                        {
+                            if (TryComp<MetaDataComponent>(itemEntity, out var itemMetadata))
+                            {
+                                _metaDataSystem.SetEntityDescription(itemEntity, entityDescription, itemMetadata);
+                                Log.Info($"Restored entity description: {entityDescription}");
+                            }
                         }
                     }
 
