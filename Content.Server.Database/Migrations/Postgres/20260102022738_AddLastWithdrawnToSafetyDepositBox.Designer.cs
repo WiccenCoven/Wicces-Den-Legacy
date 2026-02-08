@@ -6,6 +6,7 @@ using System.Text.Json;
 using Content.Server.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using NpgsqlTypes;
@@ -15,9 +16,11 @@ using NpgsqlTypes;
 namespace Content.Server.Database.Migrations.Postgres
 {
     [DbContext(typeof(PostgresServerDbContext))]
-    partial class PostgresServerDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260102022738_AddLastWithdrawnToSafetyDepositBox")]
+    partial class AddLastWithdrawnToSafetyDepositBox
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -349,11 +352,6 @@ namespace Content.Server.Database.Migrations.Postgres
                         .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("name");
-
-                    b.Property<string>("ShortName")
-                        .IsRequired()
-                        .HasColumnType("text")
-                        .HasColumnName("short_name");
 
                     b.HasKey("Id")
                         .HasName("PK_admin_rank");
@@ -860,11 +858,7 @@ namespace Content.Server.Database.Migrations.Postgres
                         .HasColumnType("text")
                         .HasColumnName("admin_ooc_color");
 
-                    b.Property<int>("MonoCoins")
-                        .HasColumnType("integer")
-                        .HasColumnName("mono_coins");
-
-                    b.PrimitiveCollection<string[]>("ConstructionFavorites")
+                    b.PrimitiveCollection<List<string>>("ConstructionFavorites")
                         .IsRequired()
                         .HasColumnType("text[]")
                         .HasColumnName("construction_favorites");
@@ -908,11 +902,6 @@ namespace Content.Server.Database.Migrations.Postgres
                         .HasColumnType("text")
                         .HasColumnName("char_name");
 
-                    b.Property<string>("Company")
-                        .IsRequired()
-                        .HasColumnType("text")
-                        .HasColumnName("company");
-
                     b.Property<string>("Customspeciesname")
                         .IsRequired()
                         .HasColumnType("text")
@@ -953,9 +942,9 @@ namespace Content.Server.Database.Migrations.Postgres
                         .HasColumnType("text")
                         .HasColumnName("hair_name");
 
-                    b.Property<float>("Height")
-                        .HasColumnType("real")
-                        .HasColumnName("height");
+                    b.Property<bool>("HideFromPlayerlist")
+                        .HasColumnType("boolean")
+                        .HasColumnName("hide_from_playerlist");
 
                     b.Property<JsonDocument>("Markings")
                         .HasColumnType("jsonb")
@@ -991,10 +980,6 @@ namespace Content.Server.Database.Migrations.Postgres
                         .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("species");
-
-                    b.Property<float>("Width")
-                        .HasColumnType("real")
-                        .HasColumnName("width");
 
                     b.HasKey("Id")
                         .HasName("PK_profile");
@@ -1499,6 +1484,41 @@ namespace Content.Server.Database.Migrations.Postgres
                     b.ToTable("uploaded_resource_log", (string)null);
                 });
 
+            modelBuilder.Entity("Content.Server.Database.WayfarerRoundSummary", b =>
+                {
+                    b.Property<int>("RoundNumber")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasColumnName("round_number");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("RoundNumber"));
+
+                    b.Property<JsonDocument>("PlayerManifest")
+                        .HasColumnType("jsonb")
+                        .HasColumnName("player_manifest");
+
+                    b.Property<JsonDocument>("PlayerStories")
+                        .HasColumnType("jsonb")
+                        .HasColumnName("player_stories");
+
+                    b.Property<JsonDocument>("ProfitLossData")
+                        .HasColumnType("jsonb")
+                        .HasColumnName("profit_loss_data");
+
+                    b.Property<DateTime>("RoundEndTime")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("round_end_time");
+
+                    b.Property<DateTime>("RoundStartTime")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("round_start_time");
+
+                    b.HasKey("RoundNumber")
+                        .HasName("PK_wayfarer_round_summaries");
+
+                    b.ToTable("wayfarer_round_summaries", (string)null);
+                });
+
             modelBuilder.Entity("Content.Server.Database.WayfarerSafetyDepositBox", b =>
                 {
                     b.Property<int>("Id")
@@ -1524,10 +1544,6 @@ namespace Content.Server.Database.Migrations.Postgres
                     b.Property<DateTime?>("LastWithdrawn")
                         .HasColumnType("timestamp with time zone")
                         .HasColumnName("last_withdrawn");
-
-                    b.Property<int?>("LastWithdrawnRoundId")
-                        .HasColumnType("integer")
-                        .HasColumnName("last_withdrawn_round_id");
 
                     b.Property<string>("Nickname")
                         .HasColumnType("text")
