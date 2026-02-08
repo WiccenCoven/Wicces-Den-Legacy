@@ -90,7 +90,8 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         { "(':", "chatsan-tearfully-smiles" },
         { "[':", "chatsan-tearfully-smiles" },
         { "('=", "chatsan-tearfully-smiles" },
-        { "['=", "chatsan-tearfully-smiles" }
+        { "['=", "chatsan-tearfully-smiles" },
+        { "cybersun", "chatsan-wicce" } // Wicce: Lore enforcement.
     };
 
     [Dependency] private readonly IConfigurationManager _configurationManager = default!;

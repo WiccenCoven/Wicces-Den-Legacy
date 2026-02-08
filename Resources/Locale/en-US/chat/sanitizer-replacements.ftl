@@ -21,3 +21,5 @@ chatsan-tearfully-salutes = tearfully salutes
 chatsan-shrugs = shrugs
 chatsan-tearfully-smiles = tearfully smiles
 chatsan-winks = winks
+
+chatsan-wicce = gets tongue tied.
