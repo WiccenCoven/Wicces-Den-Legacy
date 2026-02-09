@@ -1,7 +1,7 @@
 - type: gameMap
   id: Frontier
   mapName: 'Orbit'
-  mapPath: /Maps/_WK/Outpost/arion.yml # Mono -> Wicce
+  mapPath: /Maps/_WD/Outpost/arion.yml # Mono -> Wicce
   minPlayers: 0
   maxPlayers: 100
   randomRotation: false

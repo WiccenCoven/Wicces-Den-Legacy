@@ -1,16 +1,16 @@
 - type: guideEntry
   id: BasicLore
   name: Lore
-  text: "/ServerInfo/_WK/Guidebook/Lore/Primer.xml"
+  text: "/ServerInfo/_WD/Guidebook/Lore/Primer.xml"
   children:
   - CorporateWarAndTheCrepitum
 
 - type: guideEntry
   id: CorporateWarAndTheCrepitum
   name: The Corporate War & The Crepitum
-  text: "/ServerInfo/_WK/Guidebook/Lore/CorporateWarAndTheCrepitum.xml"
+  text: "/ServerInfo/_WD/Guidebook/Lore/CorporateWarAndTheCrepitum.xml"
 
 - type: guideEntry
   id: NullSector
   name: The Null Sector
-  text: "/ServerInfo/_WK/Guidebook/Lore/NullSector.xml"
+  text: "/ServerInfo/_WD/Guidebook/Lore/NullSector.xml"
