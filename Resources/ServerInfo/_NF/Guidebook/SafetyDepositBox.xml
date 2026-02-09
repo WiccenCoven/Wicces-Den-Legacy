@@ -19,10 +19,10 @@ The [color=#44cc00]Safety Deposit Box System[/color] allows you to securely stor
     <GuideEntityEmbed Entity="SafetyDepositBoxMedium"/>
     <GuideEntityEmbed Entity="SafetyDepositBoxLarge"/>
   </Box>
-  Three box sizes are available, each with different storage capacity:
-- [bold]Small (2x2)[/bold] - $2,250,000 Spesos
-- [bold]Medium (2x4)[/bold] - $3,500,000 Spesos
-- [bold]Large (2x6)[/bold] - $4,250,000 Spesos
+  Three premium box sizes are available, each with different storage capacity:
+- [bold]Beta (2x3)[/bold] - $1,500 Credits
+- [bold]Epsilon (2x4)[/bold] - $3,000 Credits
+- [bold]Gamma (3x3)[/bold] - $5,000 Credits
 
 The cost is deducted from your [color=#44cc00]bank account[/color] when you purchase a box.
 
