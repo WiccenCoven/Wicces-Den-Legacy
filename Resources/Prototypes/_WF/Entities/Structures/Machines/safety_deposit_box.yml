@@ -40,7 +40,7 @@
 
 - type: entity
   id: SafetyDepositBoxTrial
-  name: Secure Container (Alpha)
+  name: safety deposit box (trial)
   description: Standard secure storage for personal item transfer between shifts. This kind is freely rationed to crew aboard the "Arion", but limited to one per person.
   parent: SafetyDepositBoxBase
   components:
@@ -56,7 +56,7 @@
 
 - type: entity
   id: SafetyDepositBoxSmall
-  name: Secure Container (Beta)
+  name: safety deposit box (small)
   description: Standard secure storage for personal item transfer between shifts.
   parent: SafetyDepositBoxBase
   components:
@@ -72,7 +72,7 @@
 
 - type: entity
   id: SafetyDepositBoxMedium
-  name: Secure Container (Epsilon)
+  name: safety deposit box (medium)
   description: Standard secure storage for personal item transfer between shifts.
   parent: SafetyDepositBoxBase
   components:
@@ -88,7 +88,7 @@
 
 - type: entity
   id: SafetyDepositBoxLarge
-  name: Secure Container (Gamma)
+  name: safety deposit box (large)
   description: Standard secure storage for personal item transfer between shifts.
   parent: SafetyDepositBoxBase
   components:
@@ -98,7 +98,7 @@
   - type: Item
     size: Small
   - type: Storage
-    maxItemSize: Large
+    maxItemSize: Normal
     grid:
     - 2,2,0,0
 

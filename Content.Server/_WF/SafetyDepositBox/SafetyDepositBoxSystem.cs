@@ -688,10 +688,10 @@ public sealed class SafetyDepositBoxSystem : EntitySystem
         // Spawn the physical box (use stored box size to determine prototype)
         string prototypeId = box.BoxSize switch
         {
-            "Alpha" => "SafetyDepositBoxTrial",
-            "Beta" => "SafetyDepositBoxSmall",
-            "Epsilon" => "SafetyDepositBoxMedium",
-            "Gamma" => "SafetyDepositBoxLarge",
+            "Trial" => "SafetyDepositBoxTrial",
+            "Small" => "SafetyDepositBoxSmall",
+            "Medium" => "SafetyDepositBoxMedium",
+            "Large" => "SafetyDepositBoxLarge",
             _ => "SafetyDepositBoxSmall"
         };
 
