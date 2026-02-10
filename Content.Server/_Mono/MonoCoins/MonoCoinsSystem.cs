@@ -26,7 +26,7 @@ public sealed class MonoCoinsSystem : EntitySystem
     [Dependency] private readonly StationSystem _stationSystem = default!;
     [Dependency] private readonly StationRecordsSystem _stationRecords = default!;
 
-    private const int RoundEndReward = 10;
+    private const int RoundEndReward = 1;
 
     public override void Initialize()
     {
