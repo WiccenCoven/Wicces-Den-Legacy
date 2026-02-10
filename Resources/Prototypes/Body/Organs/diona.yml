@@ -168,7 +168,7 @@
   id: OrganDionaNymphBrain
   parent: MobDionaNymph
   categories: [ HideSpawnMenu ]
-  name: diona nymph
+  name: arborkin nymph
   suffix: Brain
   description: Contains the brain of a formerly fully-formed Diona. Killing this would kill the Diona forever. You monster.
   components:
@@ -180,7 +180,7 @@
   id: OrganDionaNymphStomach
   parent: MobDionaNymphAccent
   categories: [ HideSpawnMenu ]
-  name: diona nymph
+  name: arborkin nymph
   suffix: Stomach
   description: Contains the stomach of a formerly fully-formed Diona. It doesn't taste any better for it.
   components:
@@ -192,7 +192,7 @@
   id: OrganDionaNymphLungs
   parent: MobDionaNymphAccent
   categories: [ HideSpawnMenu ]
-  name: diona nymph
+  name: arborkin nymph
   suffix: Lungs
   description: Contains the lungs of a formerly fully-formed Diona. Breathtaking.
   components:

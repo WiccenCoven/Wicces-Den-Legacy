@@ -1,1 +1,1 @@
-species-name-ipc = IPC
+species-name-ipc = I.P.C

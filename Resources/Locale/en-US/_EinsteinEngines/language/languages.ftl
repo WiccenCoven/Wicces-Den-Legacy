@@ -5,7 +5,7 @@ language-Psychomantic-name = Psychomantic
 language-Psychomantic-description = Pure meaning, free from the tyranny of primative words and gestures.
 
 language-Bubblish-name = Bubblish
-language-Bubblish-description = The language of Slimes. Being a mixture of bubbling noises and pops it's very difficult to speak for humans without the use of mechanical aids.
+language-Bubblish-description = The language of Slimes. Being a mixture of bubbling noises and pops it's very difficult to speak for Baseliners without the use of mechanical aids.
 
 language-RootSpeak-name = Rootspeak
 language-RootSpeak-description = The strange whistling-style language spoken by the Diona.
