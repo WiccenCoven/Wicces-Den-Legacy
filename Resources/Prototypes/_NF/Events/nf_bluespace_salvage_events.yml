@@ -1,7 +1,7 @@
 - type: entity
   id: BluespaceSalvage
   parent: BaseStationEventShortDelay
-  name: Colossus Sector Bluespace Monitoring # This name shows up in the radio messages.
+  name: Vistula Institute Vacuum-Meteorology and Subspace/Realspace Monitoring Branch # This name shows up in the radio messages.
   categories: [ HideSpawnMenu ]
   components:
   - type: StationEvent
