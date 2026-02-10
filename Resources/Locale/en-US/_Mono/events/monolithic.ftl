@@ -1,6 +1,6 @@
 
-mono-monolithic-event-fragment-start-announcement = Notice: Detecting unidentified data stream from local area of space. Likely constitutes the appearance of an anomalous space-time fragment. Be advised.
-mono-monolithic-event-fragment-warning-announcement = Warning, subspace signatures detected around the monolithic fragment.
-mono-monolithic-event-fragment-end-announcement = Notice: The monolithic fragment has dissapeared from trackers. Await further notice.
+mono-monolithic-event-fragment-start-announcement = Attention! VMSRM has detected an extremely entropic object in realspace near the Arion. Proceed with caution.
+mono-monolithic-event-fragment-warning-announcement = Attention! VMSRM has detected an extremely entropic subspace signatures near the extremely entropic object. Proceed with caution.
+mono-monolithic-event-fragment-end-announcement = Attention! VMSRM reports that the extremely entropic object has disappeared from trackers. Recalibrating sensors...
 
-mono-monolithic-event-name-MonolithicFragment = #$!@$[Monolithic Fragment]%$^$#
+mono-monolithic-event-name-MonolithicFragment = #$!@$[ERROR]%$^$#
