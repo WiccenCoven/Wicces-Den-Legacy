@@ -68,7 +68,7 @@ namespace Content.Server.PDA
             SubscribeLocalEvent<StationRenamedEvent>(OnStationRenamed);
             SubscribeLocalEvent<EntityRenamedEvent>(OnEntityRenamed, after: new[] { typeof(IdCardSystem) });
             SubscribeLocalEvent<AlertLevelChangedEvent>(OnAlertLevelChanged);
-            SubscribeLocalEvent<PdaComponent, InventoryRelayedEvent<ChameleonControllerOutfitSelectedEvent>>(ChameleonControllerOutfitItemSelected);
+//            SubscribeLocalEvent<PdaComponent, InventoryRelayedEvent<ChameleonControllerOutfitSelectedEvent>>(ChameleonControllerOutfitItemSelected);
 
             // Begin DeltaV additions
             Subs.CVar(_config,
@@ -79,12 +79,12 @@ namespace Content.Server.PDA
             SubscribeLocalEvent<PlayerAttachedEvent>(OnPlayerAttached);
         }
 
-        private void ChameleonControllerOutfitItemSelected(Entity<PdaComponent> ent, ref InventoryRelayedEvent<ChameleonControllerOutfitSelectedEvent> args)
-        {
-            // Relay it to your ID so it can update as well.
-            if (ent.Comp.ContainedId != null)
-                RaiseLocalEvent(ent.Comp.ContainedId.Value, args);
-        }
+//        private void ChameleonControllerOutfitItemSelected(Entity<PdaComponent> ent, ref InventoryRelayedEvent<ChameleonControllerOutfitSelectedEvent> args)
+//        {
+//            // Relay it to your ID so it can update as well.
+//            if (ent.Comp.ContainedId != null)
+//                RaiseLocalEvent(ent.Comp.ContainedId.Value, args);
+//        }
 
         private void OnPlayerAttached(PlayerAttachedEvent args)
         {
