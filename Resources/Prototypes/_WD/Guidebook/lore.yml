@@ -4,11 +4,25 @@
   text: "/ServerInfo/_WD/Guidebook/Lore/Primer.xml"
   children:
   - CorporateWarAndTheCrepitum
+  - NullSector
 
 - type: guideEntry
   id: CorporateWarAndTheCrepitum
   name: The Corporate War & The Crepitum
   text: "/ServerInfo/_WD/Guidebook/Lore/CorporateWarAndTheCrepitum.xml"
+  children:
+  - VistulaInstitute
+  - Ecclesia
+
+- type: guideEntry
+  id: VistulaInstitute
+  name: The Vistula Institute
+  text: "/ServerInfo/_WD/Guidebook/Lore/VistulaInstitute.xml"
+
+- type: guideEntry
+  id: Ecclesia
+  name: Maioris Ecclesiae
+  text: "/ServerInfo/_WD/Guidebook/Lore/Ecclesia.xml"
 
 - type: guideEntry
   id: NullSector
