@@ -9,7 +9,7 @@
   whitelisted: true
   startingGear: HelmsmanGear
   alwaysUseSpawner: true
-  icon: "JobIconHelmsman"
+  icon: "JobIconCaptain"
   requireAdminNotify: true
   supervisors: job-supervisors-shipbaron
   weight: 170

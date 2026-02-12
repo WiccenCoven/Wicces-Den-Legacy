@@ -23,7 +23,7 @@
   name: rating
   components:
   - type: SpawnPoint
-    job_id: rating
+    job_id: Rating
 
 - type: roleLoadout
   id: JobRating
