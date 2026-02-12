@@ -79,91 +79,91 @@
 
 - type: loadout #Lecter
   id: MercenaryLecterLoadout
-  price: 25000
+  price: 2500
   storage:
     back:
     - WeaponRifleLecterPMC
 
 - type: loadout # Prometheus
   id: MercenaryPrometheusLoadout
-  price: 15000
+  price: 1500
   storage:
     back:
     - WeaponRiflePrometheus
 
 - type: loadout #Lecter / Prometheus Ammo
   id: Mercenary556x45mmAmmoLoadout
-  price: 1000
+  price: 100
   storage:
     back:
     - BoxMagazine556x45mmFMJ
 
 - type: loadout #Gestio
   id: MercenaryGestioLoadout
-  price: 5000
+  price: 500
   storage:
     back:
     - WeaponRifleGestio
 
 - type: loadout #Gestio Ammo
   id: Mercenary762x39mmAmmoLoadout
-  price: 1000
+  price: 100
   storage:
     back:
     - BoxMagazine762x39mmFMJ
 
 - type: loadout # Novalite
   id: MercenaryNovaliteLoadout
-  price: 5000
+  price: 500
   storage:
     back:
     - WeaponRifleNovaliteC1
 
 - type: loadout #Novalite Ammo
   id: MercenaryNovaliteAmmoLoadout
-  price: 1000
+  price: 100
   storage:
     back:
     - BoxMagazineNovaliteC1
 
 - type: loadout #Vulcan-C
   id: MercenaryVulcanCLoadout
-  price: 30000
+  price: 3000
   storage:
     back:
     - WeaponRifleVulcanFCMC
 
 - type: loadout #Lee Enfield
   id: MercenaryLeeEnfieldLoadout
-  price: 15000
+  price: 1500
   storage:
     back:
     - WeaponRifleLeeEnfield
 
 - type: loadout #Vulcan-C / Lee Enfield Ammo
   id: Mercenary762x51mmAmmoLoadout
-  price: 1000
+  price: 100
   storage:
     back:
     - BoxMagazine762x51mmFMJ
 
 - type: loadout #Mosin
   id: MercenaryMosinLoadout
-  price: 5000
+  price: 500
   storage:
     back:
     - WeaponSniperMosin
 
 - type: loadout #SVS42
   id: MercenarySvsLoadout
-  price: 15000
+  price: 1500
   storage:
     back:
     - WeaponRifleSVS
 
 - type: loadout #Mosin / SVS42 Ammo
   id: Mercenary762x54mmRAmmoLoadout
-  price: 1000
+  price: 100
   storage:
     back:
     - BoxMagazine762x54mmRFMJ
@@ -172,35 +172,35 @@
 
 - type: loadout #Kammerer
   id: MercenaryKammererLoadout
-  price: 5000
+  price: 500
   storage:
     back:
     - WeaponShotgunKammererPMC
 
 - type: loadout #Enforcer
   id: MercenaryEnforcerLoadout
-  price: 12000
+  price: 1200
   storage:
    back:
     - WeaponShotgunEnforcerPMC
 
 - type: loadout #Helepolis Sidearm
   id: MercenaryHelepolisLoadout
-  price: 3000
+  price: 300
   storage:
     back:
     - WeaponShotgunHelepolis
 
 - type: loadout #Buckshot Shells
   id: MercenaryBuckshotAmmoLoadout
-  price: 500
+  price: 50
   storage:
     back:
     - AmmoBox12_gaugeBuckshot
 
 - type: loadout #Slug Shells
   id: MercenarySlugAmmoLoadout
-  price: 500
+  price: 50
   storage:
     back:
     - AmmoBox12_gaugeSlug
@@ -209,63 +209,63 @@
 
 - type: loadout #Drozd
   id: MercenaryDrozdLoadout
-  price: 25000
+  price: 2500
   storage:
     back:
     - WeaponSubMachineGunDrozdPMC
 
 - type: loadout #Keyboard
   id: MercenaryKeyboardLoadout
-  price: 5000
+  price: 500
   storage:
     back:
     - WeaponSubMachineGunTypewriterPMC
 
 - type: loadout #Drozd / Keyboard  Ammo
   id: MercenaryAcpSubAmmoLoadout
-  price: 1000
+  price: 100
   storage:
     back:
     - BoxMagazine45_ACPSubMachineGunFMJ
 
 - type: loadout #AK220
   id: MercenaryAk220Loadout
-  price: 5000
+  price: 500
   storage:
     back:
     - WeaponSubMachineGunAK220
 
 - type: loadout #WT550
   id: MercenaryWt550Loadout
-  price: 12000
+  price: 1200
   storage:
     back:
     - WeaponSubMachineGunWt550PMC
 
 - type: loadout #WT550 Ammo
   id: Mercenary46x30mmTopAmmoLoadout
-  price: 1000
+  price: 100
   storage:
     back:
     - BoxMagazine46x30mmSubMachineGunTopMountedFMJ
 
 - type: loadout #C20r
   id: MercenaryC20rLoadout
-  price: 12000
+  price: 1200
   storage:
     back:
     - WeaponSubMachineGunC20rPMC
 
 - type: loadout #C20r Ammo
   id: Mercenary9x19SmgAmmoLoadout
-  price: 1000
+  price: 100
   storage:
     back:
     - BoxMagazine9x19mmSubMachineGunFMJ
 
 - type: loadout # Knallstock
   id: MercenaryKnallstockLoadout
-  price: 5000
+  price: 500
   storage:
     back:
     - WeaponSubMachineGunKnallstock
@@ -274,35 +274,35 @@
 
 - type: loadout #Energy Gun
   id: MercenaryEnergyGunLoadout
-  price: 5000
+  price: 500
   storage:
     back:
     - WeaponEnergyGunPMC
 
 - type: loadout #Laser Carbine
   id: MercenaryLaserCarbineLoadout
-  price: 5000
+  price: 500
   storage:
     back:
     - WeaponLaserCarbine
 
 - type: loadout #Laser Cannon
   id: MercenaryLaserCannonLoadout
-  price: 12000
+  price: 1200
   storage:
     back:
     - WeaponLaserCannonPMC
 
 - type: loadout #Disabler SMG
   id: MercenaryDisablerSMGLoadout
-  price: 2500
+  price: 250
   storage:
     back:
     - WeaponDisablerSMGPMC
 
 - type: loadout #Energy Recharger Flatpack
   id: MercenaryRechargerLoadout
-  price: 500
+  price: 50
   storage:
     back:
     - WeaponCapacitorRechargerFlatpack
@@ -318,7 +318,7 @@
 
 - type: loadout #Viper
   id: MercenaryViperLoadout
-  price: 2500
+  price: 250
   storage:
     back:
     - WeaponPistolViperPMC
@@ -332,28 +332,28 @@
 
 - type: loadout #MK58
   id: MercenaryMk58Loadout
-  price: 1500
+  price: 150
   storage:
     back:
     - WeaponPistolMk58
 
 - type: loadout #MK58 / Knallstock Ammo
   id: MercenaryAcpPistolAmmoLoadout
-  price: 500
+  price: 50
   storage:
     back:
     - BoxMagazine45_ACPFMJ
 
 - type: loadout #Sawn-off
   id: MercenarySawedOffLoadout
-  price: 3000
+  price: 300
   storage:
     back:
     - WeaponShotgunSawn
 
 - type: loadout #Laser Pistol
   id: MercenaryLaserPistolLoadout
-  price: 1500
+  price: 150
   storage:
     back:
     - WeaponLaserPistolNF
@@ -685,14 +685,14 @@
 
 - type: loadout #DP29
   id: FactionDp29Loadout
-  price: 50000
+  price: 5000
   storage:
     back:
     - WeaponDP29
 
 - type: loadout #DP29 Ammo
   id: FactionDp29AmmoLoadout
-  price: 2000
+  price: 200
   storage:
     back:
     - BoxMagazineDP29

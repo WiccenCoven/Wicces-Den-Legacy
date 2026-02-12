@@ -55,7 +55,6 @@
   - NFSpeciesSpecific
   - ContractorFirearm # Mono
   - ContractorMag # Mono
-  - CivGunCaseSpecial # Mono
 
 - type: accessGroup
   id: VagabondAccess
