@@ -16,7 +16,7 @@
   category: Small
   group: Commoner
   shuttlePath: /Maps/_WD/Shuttles/liquidator.yml
-  guidebookPage: ShipyardLiquidator
+  guidebookPage: Null
   class:
   - Salvage
   engine:
