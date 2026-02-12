@@ -114,15 +114,13 @@
     - RobotTalk
   # Frontier: vending machine modifications
   - type: MarketModifier
-    mod: 10
+    mod: 0.3
   - type: PotentialDeadDrop
     hintText: dead-drop-hint-vendor
   - type: VendingMachine
     pack: EmptyVendingMachineInventory # Mandatory, use empty inventory
     taxAccounts:
-      Frontier: 0.25
-      Nfsd: 0.15
-      Medical: 0.1 # Mono
+      Frontier: 0.5
     cashSlot:
       whitelist:
         components:
@@ -203,7 +201,7 @@
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: MarketModifier # Frontier
-    mod: 10 # Mono: Reduced from 12x to 10x
+    mod: 0.03 # Mono: Reduced from 12x to 10x
 
 - type: entity
   parent: VendingMachine
@@ -232,8 +230,8 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
-  - type: MarketModifier # Frontier
-    mod: 5 # Frontier
+#  - type: MarketModifier # Frontier
+#    mod: 0.03 # Frontier # Wicce
   - type: GuideHelp
     guides:
     - Bartender
@@ -334,7 +332,7 @@
     energy: 1.6
     color: "#4b93ad"
   - type: MarketModifier # Frontier
-    mod: 5 # Frontier
+    mod: 0.03 # Frontier
 
 - type: entity
   parent: VendingMachine
@@ -789,7 +787,7 @@
     energy: 1.6
     color: "#4b93ad"
   - type: MarketModifier # Frontier
-    mod: 5 # Frontier
+    mod: 0.03 # Frontier
 
 - type: entity
   parent: VendingMachine
@@ -911,7 +909,7 @@
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: MarketModifier # Frontier
-    mod: 3 # 5->3 Mono
+    mod: 0.03 # 5->3 Mono
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -947,8 +945,8 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
-  - type: MarketModifier # Frontier
-    mod: 5 # Frontier
+#  - type: MarketModifier # Frontier # Wicce
+#    mod: 0.03 # Frontier
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -984,7 +982,7 @@
   - type: AccessReader
     access: [["Security"]]
   - type: MarketModifier # Frontier
-    mod: 5 # Frontier
+    mod: 0.03 # Frontier
   - type: PointLight
     radius: 1
     energy: 1.2
@@ -1027,7 +1025,7 @@
     energy: 1.6
     color: "#326e3f"
   - type: MarketModifier # Frontier
-    mod: 5 # Frontier
+    mod: 0.03 # Frontier
 
 - type: entity
   parent: VendingMachineSeedsUnlocked
@@ -1035,7 +1033,7 @@
   suffix: Hydroponics
   components:
   - type: MarketModifier # Frontier
-    mod: 5 # Frontier
+    mod: 0.03 # Frontier
 
 - type: entity
   parent: VendingMachine
@@ -1313,7 +1311,7 @@
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: MarketModifier # Frontier
-    mod: 5 # Frontier
+    mod: 0.03 # Frontier
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -1447,7 +1445,7 @@
   #   guides: # Frontier: removed guidebook entry
   #   - Salvage # Frontier: removed guidebook entry
   - type: MarketModifier # Frontier
-    mod: 15 # Frontier
+    mod: 0.1 # Frontier
 
 - type: entity
   parent: VendingMachine
@@ -1482,7 +1480,7 @@
     energy: 1.6
     color: "#d4ab33"
   - type: MarketModifier # Frontier
-    mod: 5 # Frontier
+    mod: 0.03 # Frontier
 
 # wallmounted machines
 
@@ -1528,7 +1526,7 @@
     - texture: Structures/Machines/VendingMachines/maintenance_panel.png
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: MarketModifier # Frontier
-    mod: 3 # Mono 5 >> 3
+    mod: 0.03 # Mono 5 >> 3
   - type: PointLight
     radius: 1.3
     energy: 1.6
@@ -2145,7 +2143,7 @@
 #  - type: AccessReader # Frontier
 #    access: [["Kitchen"], ["Theatre"]] # Frontier
   - type: MarketModifier # Frontier
-    mod: 5 # Frontier
+    mod: 0.03 # Frontier
 
 # Pride Vending Machine
 
@@ -2195,7 +2193,7 @@
     sprite: Structures/Machines/VendingMachines/tankdispenser.rsi #TODO add visualiser for remaining tanks as layers
     state: dispenser
   - type: MarketModifier # Frontier
-    mod: 5 # Frontier
+    mod: 0.03 # Frontier
 
 - type: entity
   parent: VendingMachine
