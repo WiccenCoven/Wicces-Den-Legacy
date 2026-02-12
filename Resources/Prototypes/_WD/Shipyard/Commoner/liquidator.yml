@@ -1,0 +1,38 @@
+# Author Info
+# GitHub: erhardsteinhauer
+# Discord: erhardsteinhauer
+
+# Maintainer Info
+# GitHub: N/A
+# Discord: N/A
+
+# Shuttle Notes:
+- type: vessel
+  id: Liquidator
+  parent: BaseVessel
+  name: Liquidator
+  description: A small shipbreaker/salvage vessel equipped with everything a small crew need for extended work shift in deep space.
+  price: 999999 # Voucher only, please!
+  category: Small
+  group: Commoner
+  shuttlePath: /Maps/_WD/Shuttles/liquidator.yml
+  guidebookPage: Null
+  class:
+  - Salvage
+  engine:
+  - Uranium
+
+- type: gameMap
+  id: Liquidator
+  mapName: 'Liquidator'
+  mapPath: /Maps/_WD/Shuttles/liquidator.yml
+  minPlayers: 0
+  stations:
+    Liquidator:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Liquidator DTU{1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'

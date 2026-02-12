@@ -4,7 +4,7 @@ meta:
   engineVersion: 264.0.0
   forkId: ""
   forkVersion: ""
-  time: 02/09/2026 13:12:14
+  time: 02/12/2026 20:43:11
   entityCount: 202
 maps: []
 grids:
@@ -60,10 +60,10 @@ entities:
     - type: OccluderTree
     - type: SpreaderGrid
       spreadQueues:
-        Kudzu: []
-        Puddle: []
-        MetalFoam: []
         Smoke: []
+        Kudzu: []
+        MetalFoam: []
+        Puddle: []
     - type: Shuttle
       dampingModifier: 0.25
     - type: GridPathfinding
@@ -284,11 +284,6 @@ entities:
       bodyType: Static
 - proto: AirlockExternal
   entities:
-  - uid: 179
-    components:
-    - type: Transform
-      pos: 3.5,-12.5
-      parent: 1
   - uid: 182
     components:
     - type: Transform
@@ -298,6 +293,13 @@ entities:
     components:
     - type: Transform
       pos: 1.5,-1.5
+      parent: 1
+- proto: AirlockGlassShuttle
+  entities:
+  - uid: 179
+    components:
+    - type: Transform
+      pos: 3.5,-12.5
       parent: 1
 - proto: AirlockMercenary
   entities:
