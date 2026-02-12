@@ -15,7 +15,7 @@
   price: 999999 # Voucher only, please!
   category: Small
   group: Commoner
-  shuttlePath: /Maps/_NF/Shuttles/liquidator.yml
+  shuttlePath: /Maps/_WD/Shuttles/liquidator.yml
   guidebookPage: ShipyardLiquidator
   class:
   - Salvage
@@ -25,7 +25,7 @@
 - type: gameMap
   id: Liquidator
   mapName: 'Liquidator'
-  mapPath: /Maps/_NF/Shuttles/liquidator.yml
+  mapPath: /Maps/_WD/Shuttles/liquidator.yml
   minPlayers: 0
   stations:
     Liquidator:
