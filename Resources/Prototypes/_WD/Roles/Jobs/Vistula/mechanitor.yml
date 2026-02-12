@@ -12,13 +12,6 @@
   accessGroups:
   - VistulaAccess
 
-- type: accessGroup
-  id: VistulaAccess
-  tags:
-  - Maintenance
-  - External
-  - Research
-
 - type: playTimeTracker
   id: JobMechanitor
 
