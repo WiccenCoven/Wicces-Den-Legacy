@@ -41,7 +41,13 @@ jobs:
       run: dotnet run --project Content.Packaging client --no-wipe-release
 
     - name: Publish version
-      run: curl -v -X POST -u "wicce:${{ secrets.PUBLISH_TOKEN }}" http://45.90.97.214:5000/instances/wicce/update
+      uses: appleboy/ssh-action@1.2.5
+      with:
+        host: 45.90.97.214
+        username: ss14
+        key: ${{ secrets.SSH_KEY }}
+        port: 22
+        script: curl -v -X POST -u "wicce:${{ secrets.PUBLISH_TOKEN }}" http://localhost:5000/instances/wicce/update
 
     - name: Publish changelog (Discord)
       run: Tools/actions_changelogs_since_last_run.py
