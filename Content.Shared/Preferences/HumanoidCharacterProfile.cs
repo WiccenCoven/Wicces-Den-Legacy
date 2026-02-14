@@ -32,7 +32,7 @@ namespace Content.Shared.Preferences
 
         public const int MaxNameLength = 32;
         public const int MaxLoadoutNameLength = 32;
-        public const int MaxDescLength = 512;
+        public const int MaxDescLength = 4000; // Wicce: Was 512
 
         public const int DefaultBalance = 300; // Wicce: Was 75000
 
