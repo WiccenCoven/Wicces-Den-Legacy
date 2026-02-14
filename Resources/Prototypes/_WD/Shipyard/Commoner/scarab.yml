@@ -3,7 +3,7 @@
 # Discord: Versengt
 
 - type: vessel
-  id: scarab
+  id: Scarab
   parent: BaseVessel
   name: Scarab
   description: A mercenary ship.
@@ -18,7 +18,7 @@
   - Uranium
 
 - type: gameMap
-  id: scarab
+  id: Scarab
   mapName: 'scarab'
   mapPath: /Maps/_WD/Shuttles/scarab.yml
   minPlayers: 0

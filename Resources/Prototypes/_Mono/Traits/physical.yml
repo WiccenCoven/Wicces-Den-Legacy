@@ -317,7 +317,7 @@
   cost: -5 # This shit was FREE for factions practically
   components:
   - type: Ironman
-  traitGear: ShipVoucherFrontierIronMan
+#  traitGear: ShipVoucherFrontierIronMan # Wicce: Removed free voucher.
 
 - type: trait
   id: TemperatureTolerance
