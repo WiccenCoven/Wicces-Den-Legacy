@@ -11,7 +11,9 @@ job-description-squire = Learn how to be a knight, maintain equipment, and assis
 
 # Commoner's Guild
 job-description-rating = Be a crewmember of the DTU Arion. Handle whatever your character does (cooking, cleaning, maintenance, etc)!
-job-description-vagabond = You are a stowaway, or perhaps a long forgotten passenger. You are not legally protected, and you have no position by default.
+job-description-vagabond = Be a stowaway, or perhaps a long forgotten passenger. You are not legally protected, and you have no position by default.
+job-description-clerk = Collect resources, manage the commoners, and report to the Steward.
+job-description-first-engineer = Maintain the ship, manage volunteering ratings.
 
 # VI:ROA
 job-description-provost = Choose what research to conduct, manage the researchers, insure that the Mechanitor is on their best behavior.

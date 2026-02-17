@@ -4,8 +4,8 @@ meta:
   engineVersion: 264.0.0
   forkId: ""
   forkVersion: ""
-  time: 02/16/2026 20:41:30
-  entityCount: 6868
+  time: 02/17/2026 15:10:25
+  entityCount: 6876
 maps:
 - 1
 grids:
@@ -218,10 +218,10 @@ entities:
     - type: OccluderTree
     - type: SpreaderGrid
       spreadQueues:
-        MetalFoam: []
-        Puddle: []
-        Kudzu: []
         Smoke: []
+        MetalFoam: []
+        Kudzu: []
+        Puddle: []
     - type: Shuttle
       dampingModifier: 0.25
     - type: GridPathfinding
@@ -7064,6 +7064,12 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -0.5,-19.5
+      parent: 2
+  - uid: 6875
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 20.5,-60.5
       parent: 2
 - proto: ButtonFrameExit
   entities:
@@ -35667,6 +35673,32 @@ entities:
         5738:
         - - Pressed
           - DoorBolt
+  - uid: 6876
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 20.5,-60.5
+      parent: 2
+    - type: DeviceLinkSource
+      linkedPorts:
+        1502:
+        - - Pressed
+          - Toggle
+        748:
+        - - Pressed
+          - Toggle
+        3528:
+        - - Pressed
+          - Toggle
+        2698:
+        - - Pressed
+          - Toggle
+        2702:
+        - - Pressed
+          - Toggle
+        2697:
+        - - Pressed
+          - Toggle
 - proto: SignalButtonDirectional
   entities:
   - uid: 155
@@ -36020,6 +36052,23 @@ entities:
     - type: Transform
       pos: 15.5,-44.5
       parent: 2
+- proto: SpawnPointClerk
+  entities:
+  - uid: 6869
+    components:
+    - type: Transform
+      pos: 6.5,-49.5
+      parent: 2
+  - uid: 6870
+    components:
+    - type: Transform
+      pos: 10.5,-50.5
+      parent: 2
+  - uid: 6871
+    components:
+    - type: Transform
+      pos: 13.5,-45.5
+      parent: 2
 - proto: SpawnPointCurate
   entities:
   - uid: 382
@@ -36031,6 +36080,23 @@ entities:
     components:
     - type: Transform
       pos: -9.5,-57.5
+      parent: 2
+- proto: SpawnPointFirstEngineer
+  entities:
+  - uid: 6872
+    components:
+    - type: Transform
+      pos: 21.5,-58.5
+      parent: 2
+  - uid: 6873
+    components:
+    - type: Transform
+      pos: 13.5,-65.5
+      parent: 2
+  - uid: 6874
+    components:
+    - type: Transform
+      pos: 20.5,-69.5
       parent: 2
 - proto: SpawnPointHand
   entities:
@@ -45391,7 +45457,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -86479.35
+      secondsUntilStateChange: -86569.63
       state: Opening
     - type: Airlock
       autoClose: False

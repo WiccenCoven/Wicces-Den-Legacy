@@ -49,6 +49,8 @@
           # COMMONERS
             Rating: [ -1, -1 ]
             Vagabond: [ -1, -1 ]
+            FirstEngineer: [ 1 , 1 ]
+            Clerk: [ 1, 1 ]
           tags:
           - HeadOfPersonnel
           - HeadOfSecurity

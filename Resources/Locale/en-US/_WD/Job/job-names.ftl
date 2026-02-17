@@ -21,3 +21,5 @@ job-name-curate = Curate
 # Commoner's Guild
 job-name-rating = Rating
 job-name-vagabond = Vagabond
+job-name-clerk = Clerk
+job-name-first-engineer = First Engineer

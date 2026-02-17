@@ -1,0 +1,54 @@
+- type: job
+  id: FirstEngineer
+  name: job-name-first-engineer
+  description: job-description-first-engineer
+  playTimeTracker: JobFirstEngineer
+  icon: "JobIconStationEngineer"
+  supervisors: job-supervisors-steward
+  displayWeight: 40
+  guides: [ BasicLore ]
+  accessGroups:
+  - GeneralAccess
+  special:
+  - !type:GiveItemOnHolidaySpecial
+    holiday: FrontierBirthday
+    prototype: FrontierBirthdayGift
+
+- type: playTimeTracker
+  id: JobFirstEngineer
+
+- type: entity
+  id: SpawnPointFirstEngineer
+  parent: SpawnPointStationEngineer
+  name: first-engineer
+  components:
+  - type: SpawnPoint
+    job_id: FirstEngineer
+
+- type: roleLoadout
+  id: JobFirstEngineer
+  groups:
+  - ContractorHead
+  - ContractorNeck
+  - ContractorJumpsuit
+  - ContractorGloves
+  - ContractorBackpack
+  - ContractorOuterClothing
+  - ContractorShoes
+  - ContractorFace
+  - ContractorGlasses
+  - ContractorBelt
+  - ContractorEars
+  - ContractorEncryptionKey
+  - ContractorBoxSurvival
+  - ContractorPDA
+  - ContractorWallet
+  - ContractorCartridge
+  - ContractorImplanter
+  - ContractorUtility
+  - ContractorFun
+  - ContractorTrinkets
+  - ContractorBureaucracy
+  - NFSpeciesSpecific
+  - ContractorFirearm
+  - ContractorMag

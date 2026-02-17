@@ -51,6 +51,8 @@
   roles:
   - Rating
   - Vagabond
+  - Clerk
+  - FirstEngineer
 
 # COLORS
 # #A46106 - CARGO
