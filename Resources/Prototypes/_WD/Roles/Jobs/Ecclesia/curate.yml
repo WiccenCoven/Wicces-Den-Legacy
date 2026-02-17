@@ -58,9 +58,6 @@
   - MdMedicEars
   - ContractorBoxSurvival
   - MdMedicPDA
-  - MercenaryFirearm
-  - MercenaryPistol
-  - MercenaryMag
   - ContractorWallet
   - ContractorCartridge
   - ContractorImplanter
@@ -69,3 +66,5 @@
   - ContractorTrinkets
   - ContractorBureaucracy
   - NFSpeciesSpecific
+  - GeneralFirearm
+  - GeneralMag

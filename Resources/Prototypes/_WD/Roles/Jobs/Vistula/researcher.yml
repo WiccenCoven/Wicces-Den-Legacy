@@ -33,27 +33,26 @@
 - type: roleLoadout
   id: JobResearcher
   groups:
-  - ContractorHead
-  - ContractorNeck
+  - GeneralHead
+  - GeneralNeck
   - MdMedicJumpsuit
   - MdMedicGloves
   - MdMedicBackpack
-  - ContractorOuterClothing
-  - ContractorShoes
-  - ContractorFace
-  - ContractorGlasses
-  - ContractorBelt
+  - GeneralOuterClothing
+  - GeneralShoes
+  - GeneralFace
+  - GeneralGlasses
+  - GeneralBelt
   - MdMedicEars
-  - ContractorBoxSurvival
+  - GeneralBoxSurvival
   - MdMedicPDA
-  - MercenaryFirearm
-  - MercenaryPistol
-  - MercenaryMag
-  - ContractorWallet
-  - ContractorCartridge
-  - ContractorImplanter
-  - ContractorEncryptionKey
-  - ContractorFun
-  - ContractorTrinkets
-  - ContractorBureaucracy
+  - GeneralWallet
+  - GeneralCartridge
+  - GeneralImplanter
+  - GeneralEncryptionKey
+  - GeneralFun
+  - GeneralTrinkets
+  - GeneralBureaucracy
   - NFSpeciesSpecific
+  - GeneralFirearm
+  - GeneralMag

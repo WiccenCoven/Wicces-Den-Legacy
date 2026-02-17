@@ -63,10 +63,10 @@
   - StationRepGloves
   - StationRepBackpack
   - StationRepOuterClothing
-  #  - ContractorShoes
-  #  - ContractorFace
-  #  - ContractorGlasses
-  #  - ContractorBelt
+  #  - GeneralShoes
+  #  - GeneralFace
+  #  - GeneralGlasses
+  #  - GeneralBelt
   - MonoSecurityGuardHud
   - StationRepEars
   - MonoSecurityGuardShoes
@@ -74,12 +74,12 @@
   - HeadofSecurityJumpsuit
   - HeadofSecurityNeck
   - ColonialLiaisonFirearm # Mono
-  - ContractorBoxSurvival
+  - GeneralBoxSurvival
   - StationRepPDA
-  - ContractorWallet
-  - ContractorCartridge
-  - ContractorImplanter
-  # - ContractorFun # Mono - no fun allowed
+  - GeneralWallet
+  - GeneralCartridge
+  - GeneralImplanter
+  # - GeneralFun # Mono - no fun allowed
   - StationRepTrinkets
-  - ContractorBureaucracy
+  - GeneralBureaucracy
   - NFSpeciesSpecific
