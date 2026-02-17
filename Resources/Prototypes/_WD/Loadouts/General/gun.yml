@@ -1,0 +1,96 @@
+- type: loadoutGroup
+  id: GeneralFirearm
+  minLimit: 0
+  name: loadout-group-weapon-general
+  loadouts:
+  - GeneralMk32Loadout
+  - GeneralLaserLoadout
+  - GeneralSurvivalKnifeLoadout
+  - GeneralDisablerLoadout
+  - GeneralArgentiLoadout
+  - GeneralSvalinnLoadout
+  - GeneralDoubleBarreledLoadout
+  fallbacks:
+  - GeneralMk32Loadout
+
+- type: loadoutGroup
+  id: GeneralMag
+  name: loadout-group-magazine-general
+  minLimit: 0
+  loadouts:
+  - General9x19mmPistolAmmoLoadout #MK32 Universal
+  - General556x45mmAmmoLoadout #Argenti
+  - GeneralBeanbagAmmoLoadout #Shotgun Beanbag
+
+- type: loadout #MK32 Universal
+  id: GeneralMk32Loadout
+  price: 0
+  storage:
+    back:
+    - WeaponPistolMk32
+
+- type: loadout #MK32 Universal Ammo
+  id: General9x19mmPistolAmmoLoadout
+  price: 500
+  storage:
+    back:
+    - BoxMagazine9x19mmFMJ
+
+- type: loadout #Disabler
+  id: GeneralDisablerLoadout
+  price: 0
+  storage:
+    back:
+    - WeaponDisabler
+
+- type: loadout #Svalinn
+  id: GeneralSvalinnLoadout
+  price: 200
+  storage:
+    back:
+    - WeaponLaserSvalinn
+
+- type: loadout #Makeshift Laser
+  id: GeneralLaserLoadout
+  price: 0
+  storage:
+    back:
+    - WeaponMakeshiftLaser
+
+- type: loadout #Argenti
+  id: GeneralArgentiLoadout
+  price: 200
+  storage:
+    back:
+    - WeaponRevolverArgenti
+
+- type: loadout #Argenti Ammo
+  id: General556x45mmAmmoLoadout
+  price: 100
+  storage:
+    back:
+    - BoxMagazineSpeedLoader556x45mmFMJ
+
+- type: loadout # Survival Knife
+  id: GeneralSurvivalKnifeLoadout
+  price: 0
+  storage:
+    back:
+    - SurvivalKnife
+
+# Shotguns
+
+- type: loadout #Double Barrel Beanbag
+  id: GeneralDoubleBarreledLoadout
+  price: 300
+  storage:
+    back:
+    - WeaponShotgunDoubleBarreledRubber
+
+- type: loadout #Beanbag Shells
+  id: GeneralBeanbagAmmoLoadout
+  price: 200
+  storage:
+    back:
+    - AmmoBox12_gaugeBeanbag
+

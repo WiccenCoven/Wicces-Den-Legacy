@@ -61,13 +61,13 @@
   - SecurityGuardEars
   - NfsdBoxSurvival
   - SecurityGuardPDA
-  - ContractorWallet
-  - ContractorCartridge
-  - ContractorImplanter
-  - ContractorEncryptionKey
-  - ContractorFun
-  - ContractorTrinkets
-  - ContractorBureaucracy
+  - GeneralWallet
+  - GeneralCartridge
+  - GeneralImplanter
+  - GeneralEncryptionKey
+  - GeneralFun
+  - GeneralTrinkets
+  - GeneralBureaucracy
   - NFSpeciesSpecific
 
 - type: entity

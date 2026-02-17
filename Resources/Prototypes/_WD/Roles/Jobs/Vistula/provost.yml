@@ -45,19 +45,21 @@
   - DocJumpsuit
   - DocGloves
   - MdMedicBackpack
-  - ContractorOuterClothing
+  - GeneralOuterClothing
   - DocShoes
-  - ContractorFace
-  - ContractorGlasses
-  - ContractorBelt
+  - GeneralFace
+  - GeneralGlasses
+  - GeneralBelt
   - DocEars
-  - ContractorBoxSurvival
+  - GeneralBoxSurvival
   - DocPDA
-  - ContractorWallet
-  - ContractorCartridge
-  - ContractorImplanter
-  - ContractorEncryptionKey
-  - ContractorFun
-  - ContractorTrinkets
-  - ContractorBureaucracy
+  - GeneralWallet
+  - GeneralCartridge
+  - GeneralImplanter
+  - GeneralEncryptionKey
+  - GeneralFun
+  - GeneralTrinkets
+  - GeneralBureaucracy
   - NFSpeciesSpecific
+  - GeneralFirearm
+  - GeneralMag
