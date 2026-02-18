@@ -1,0 +1,112 @@
+# Faction Specific
+- type: loadoutGroup
+  id: VistulaJumpsuit
+  name: loadout-group-vistula-jumpsuit
+  loadouts:
+  - MedicalDoctorJumpsuit
+  - MedicalDoctorJumpskirt
+  - MedicalBlueScrubs
+  - MedicalGreenScrubs
+  - MedicalPurpleScrubs
+  - ContractorClothingUniformJumpsuitSeniorPhysician
+  - ContractorClothingUniformJumpskirtSeniorPhysician
+  - ContractorClothingUniformJumpsuitParamedic
+  - ContractorClothingUniformJumpskirtParamedic
+  - ContractorClothingUniformJumpsuitVirology
+  - ContractorClothingUniformJumpskirtVirology
+  - ContractorClothingUniformJumpsuitChemistry
+  - ContractorClothingUniformJumpskirtChemistry
+  - ContractorClothingUniformJumpsuitGenetics
+  - ContractorClothingUniformJumpskirtGenetics
+  - ContractorClothingUniformJumpsuitPsychologist
+  - ContractorClothingUniformJumpskirtPsychologist
+  subgroups:
+  - GeneralJumpsuit
+  fallbacks:
+  - MedicalDoctorJumpsuit
+
+- type: loadoutGroup
+  id: VistulaHead
+  name: loadout-group-vistula-head
+  minLimit: 0
+  loadouts:
+  - ContractorClothingHeadHatBeretRND
+  subgroups:
+  - GeneralHead
+
+- type: loadoutGroup
+  id: VistulaBackpack
+  name: loadout-group-vistula-backpack
+  loadouts:
+  - MdMedicClothingModsuitParamedicPowerCell
+  - DocClothingBackpackMedical
+  - DocClothingBackpackDuffelMedical
+  - DocClothingBackpackSatchelMedical
+  - DocClothingBackpackMessengerMedical
+  subgroups:
+  - GeneralBackpack
+  fallbacks:
+  - DocClothingBackpackMedical
+
+- type: loadoutGroup
+  id: VistulaPDA
+  name: loadout-group-vistula-id
+  loadouts:
+  - MedicalDoctorPDA
+  - ContractorSeniorPhysicianPDA
+  fallbacks:
+  - MdMedicMedicalPDA
+
+- type: loadoutGroup
+  id: VistulaEars
+  name: loadout-group-vistula-ears
+#  hidden: true # No point in showing this, it gets auto-selected.
+  loadouts:
+  - MdMedicClothingHeadsetMedical
+  fallbacks:
+  - MdMedicClothingHeadsetMedical
+
+- type: loadoutGroup
+  id: VistulaGloves
+  name: loadout-group-vistula-gloves
+  minLimit: 0
+  loadouts:
+  - NitrileGloves
+  - LatexGloves
+
+- type: loadoutGroup
+  id: VistulaNeck
+  name: loadout-group-vistula-neck
+  minLimit: 0
+  loadouts:
+  - ContractorClothingNeckTieSci
+  subgroups:
+  - GeneralNeck
+
+
+- type: loadoutGroup
+  id: VistulaShoes
+  name: loadout-group-vistula-shoes
+  loadouts:
+  - DocClothingShoesColorWhite
+  - StcClothingShoesBootsLaceup
+  subgroups:
+  - GeneralShoes
+  fallbacks:
+  - DocClothingShoesColorWhite
+
+# Job Specific
+
+- type: loadoutGroup
+  id: ProvostJumpsuit
+  name: loadout-group-provost-jumpsuit
+  loadouts:
+  - ContractorClothingUniformJumpsuitSeniorResearcher
+  - ContractorClothingUniformJumpskirtSeniorResearcher
+  - ContractorClothingUniformJumpsuitResearchDirector
+  - ContractorClothingUniformJumpskirtResearchDirector
+  subgroups:
+  - GeneralJumpsuit
+  fallbacks:
+  - ContractorClothingUniformJumpsuitSeniorResearcher
+  - ContractorClothingUniformJumpskirtSeniorResearcher

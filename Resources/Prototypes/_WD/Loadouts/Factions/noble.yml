@@ -1,0 +1,116 @@
+- type: loadoutGroup
+  id: NobleJumpsuit
+  name: loadout-group-noble-jumpsuit
+  minLimit: 1
+  loadouts:
+  - ContractorClothingUniformJumpsuitCaptain
+  - ContractorClothingUniformJumpskirtCaptain
+  - ContractorClothingUniformJumpsuitCapFormal
+  - ContractorClothingUniformJumpskirtCapFormalDress
+  - ContractorClothingUniformJumpsuitMilitaryCaptain
+  subgroups:
+  - GeneralJumpsuit
+  fallbacks:
+  - ContractorClothingUniformJumpsuitCaptain
+
+- type: loadoutGroup
+  id: NobleBackpack
+  name: loadout-group-noble-backpack
+  minLimit: 1
+  loadouts:
+  - ContractorClothingModsuitCaptainPowerCell
+  - ContractorClothingBackpackCaptain
+  - ContractorClothingBackpackDuffelCaptain
+  - ContractorClothingBackpackSatchelCaptain
+  - ContractorClothingBackpackMessengerCaptain
+  subgroups:
+  - GeneralBackpack
+  fallbacks:
+  - ContractorClothingBackpackCaptain
+
+- type: loadoutGroup
+  id: NobleOuterClothing
+  name: loadout-group-noble-outerclothing
+  minLimit: 0
+  loadouts:
+  - ContractorClothingOuterHardsuitCap
+  subgroups:
+  - GeneralOuterClothing
+
+- type: loadoutGroup
+  id: NobleBelt
+  name: loadout-group-noble-belt
+  loadouts:
+  - ContractorClothingBeltSheathFilled
+  subgroups:
+  - GeneralBelt
+
+- type: loadoutGroup
+  id: NobleShoes
+  name: loadout-group-noble-shoes
+  loadouts:
+  - ContractorClothingShoesBootsWinterCap
+  subgroups:
+  - GeneralShoes
+
+- type: loadoutGroup
+  id: NobleGloves
+  name: loadout-group-noble-gloves
+  loadouts:
+  - ContractorClothingHandsGlovesCaptain
+  subgroups:
+  - GeneralGloves
+
+- type: loadoutGroup
+  id: NobleFace
+  name: loadout-group-noble-face
+  loadouts:
+  - ContractorClothingMaskGasCaptain
+  subgroups:
+  - GeneralFace
+
+- type: loadoutGroup
+  id: NobleGlasses
+  name: loadout-group-noble-glasses
+  loadouts:
+  - MercenaryClothingEyesGlassesSunglasses
+  subgroups:
+  - GeneralGlasses
+
+- type: loadoutGroup
+  id: NobleHead
+  name: loadout-group-noble-head
+  minLimit: 0
+  loadouts:
+  - ContractorClothingHeadHatCapcap
+  - ContractorClothingHeadHatCaptain
+  subgroups:
+  - GeneralHead
+
+- type: loadoutGroup
+  id: NobleNeck
+  name: loadout-group-noble-neck
+  minLimit: 0
+  loadouts:
+  - ContractorClothingNeckMantleCap
+  - ContractorClothingNeckCloakCap
+  - ContractorClothingNeckCloakCapFormal
+  subgroups:
+  - GeneralNeck
+
+- type: loadoutGroup
+  id: NobleEars
+  name: loadout-group-noble-ears
+  loadouts:
+  - ContractorClothingHeadsetCommandCommon
+  - ContractorClothingHeadsetAltCommandCommon
+  subgroups:
+  - GeneralEars
+
+- type: loadoutGroup
+  id: NoblePDA
+  name: loadout-group-noble-id
+  loadouts:
+  - ContractorCaptainPDA
+  fallbacks:
+  - ContractorCaptainPDA

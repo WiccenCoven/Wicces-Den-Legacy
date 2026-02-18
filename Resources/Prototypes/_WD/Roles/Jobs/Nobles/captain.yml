@@ -32,16 +32,10 @@
   id: HelmsmanGear
   equipment:
     pocket1: WeaponDisabler
+    ears: ClothingHeadsetCommand
   storage:
     back:
     - Flash
-    - RubberStampSr
-    - DoorRemoteCommand
-    - EncryptionKeyCentCom
-    - EncryptionKeyStationMasterSR #Mono start
-    - EncryptionKeyDiplomacy
-    - ShipVoucherFrontierGuard
-   #- EncryptionKeyStationMaster # Mono end
 
 - type: playTimeTracker
   id: JobHelmsman
@@ -57,29 +51,24 @@
 - type: roleLoadout
   id: JobHelmsman
   groups:
-  #  - StationRepHead
-  #  - StationRepNeck
-  #  - StationRepJumpsuit
-  - StationRepGloves
-  - StationRepBackpack
-  - StationRepOuterClothing
-  #  - GeneralShoes
-  #  - GeneralFace
-  #  - GeneralGlasses
-  #  - GeneralBelt
-  - MonoSecurityGuardHud
-  - StationRepEars
-  - MonoSecurityGuardShoes
-  - HeadofSecurityHead
-  - HeadofSecurityJumpsuit
-  - HeadofSecurityNeck
-  - ColonialLiaisonFirearm # Mono
+  - NobleJumpsuit
+  - NobleBackpack
+  - NobleGloves
+  - NobleOuterClothing
+  - NobleFace
+  - NobleGlasses
+#  - NobleEars # Commented this out because it's filled by the StartingGear component.
+  - GeneralEncryptionKey
+  - NobleShoes
+  - NobleHead
+  - NobleNeck
   - GeneralBoxSurvival
-  - StationRepPDA
+  - NoblePDA
   - GeneralWallet
   - GeneralCartridge
   - GeneralImplanter
-  # - GeneralFun # Mono - no fun allowed
-  - StationRepTrinkets
+  - GeneralFun
+  - GeneralUtility
+  - GeneralTrinkets
   - GeneralBureaucracy
   - NFSpeciesSpecific

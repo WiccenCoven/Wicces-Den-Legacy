@@ -1,0 +1,121 @@
+#region Knight
+# Rifles
+- type: loadout #Lecter
+  id: KnightLecterLoadout
+  price: 0
+  storage:
+    back:
+    - WeaponRifleLecter
+
+- type: loadout #Ak
+  id: KnightAkLoadout
+  price: 0
+  storage:
+    back:
+    - WeaponRifleAk
+
+- type: loadout #Vulcan
+  id: KnightVulcanLoadout
+  price: 0
+  storage:
+    back:
+    - WeaponRifleVulcan
+
+- type: loadout #Lecter / Prometheus Ammo
+  id: Knight556x45mmAmmoLoadout
+  price: 0
+  storage:
+    back:
+    - BoxMagazine556x45mmFMJ
+
+- type: loadout #AK Ammo
+  id: Knight762x39AmmoLoadout
+  price: 0
+  storage:
+    back:
+    - BoxMagazine762x39mmFMJ
+
+- type: loadout #Vulcan Ammo
+  id: Knight762x51AmmoLoadout
+  price: 0
+  storage:
+    back:
+    - BoxMagazine762x51mmFMJ
+
+# Shotguns
+
+- type: loadout #Kammerer
+  id: KnightKammererLoadout
+  price: 0
+  storage:
+    back:
+    - WeaponShotgunKammerer
+
+- type: loadout #Enforcer
+  id: KnightEnforcerLoadout
+  price: 0
+  storage:
+    back:
+    - WeaponShotgunEnforcer
+
+- type: loadout # Shells
+  id: KnightBeanbagAmmoLoadout
+  price: 0
+  storage:
+    back:
+    - AmmoBox12_gaugeBuckshot
+
+# SMGs
+
+- type: loadout #Drozd
+  id: KnightDrozdLoadout
+  price: 0
+  storage:
+    back:
+    - WeaponSubMachineGunDrozd
+
+- type: loadout #Vector
+  id: KnightVectorLoadout
+  price: 0
+  storage:
+    back:
+    - WeaponSubMachineGunVector45_ACPRegistered
+
+- type: loadout #Drozd/Vector Ammo
+  id: KnightAcpSmgAmmoRubberLoadout
+  price: 0
+  storage:
+    back:
+    - BoxMagazine45_ACPSubMachineGunFMJ
+
+# Energy
+
+- type: loadout #Disabler SMG
+  id: KnightDisablerSMGLoadout
+  price: 0
+  storage:
+    back:
+    - WeaponDisablerSMG
+
+- type: loadout #Energy Gun
+  id: KnightEnergyGunLoadout
+  price: 0
+  storage:
+    back:
+    - WeaponEnergyGun
+
+# Sidearms
+
+- type: loadout #MK58
+  id: KnightMk58Loadout
+  price: 0
+  storage:
+    back:
+    - WeaponPistolMk58
+
+- type: loadout #MK58 Rubber Ammo
+  id: KnightAcpPistolRubberAmmoLoadout
+  price: 0
+  storage:
+    back:
+    - BoxMagazine45_ACPRubber

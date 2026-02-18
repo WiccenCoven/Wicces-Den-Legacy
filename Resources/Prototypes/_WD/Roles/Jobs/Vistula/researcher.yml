@@ -12,6 +12,12 @@
   accessGroups:
   - VistulaAccess
 
+- type: startingGear
+  id: ResearcherGear
+  equipment:
+    id: SciencePDA
+    ears: ClothingHeadsetScience
+
 - type: accessGroup
   id: VistulaAccess
   tags:
@@ -33,19 +39,19 @@
 - type: roleLoadout
   id: JobResearcher
   groups:
-  - GeneralHead
-  - GeneralNeck
-  - MdMedicJumpsuit
-  - MdMedicGloves
-  - MdMedicBackpack
+  - VistulaHead
+  - VistulaNeck
+  - VistulaJumpsuit
+  - VistulaGloves
+  - VistulaBackpack
   - GeneralOuterClothing
   - GeneralShoes
   - GeneralFace
   - GeneralGlasses
   - GeneralBelt
-  - MdMedicEars
+#  - VistulaEars # Commented this out because it's filled by the StartingGear component.
   - GeneralBoxSurvival
-  - MdMedicPDA
+#  - VistulaPDA # Commented this out because it's filled by the StartingGear component.
   - GeneralWallet
   - GeneralCartridge
   - GeneralImplanter

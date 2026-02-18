@@ -28,7 +28,6 @@
   equipment:
     id: CMOPDA
     ears: ClothingHeadsetCMO
-    belt: ClothingBeltMedicalFilled
   storage:
     back:
     - Flash
@@ -55,26 +54,26 @@
 - type: roleLoadout
   id: JobVicar
   groups:
-  - DocHead
-  - DocNeck
-  - DocJumpsuit
-  - DocGloves
-  - MdMedicBackpack
-  - ContractorOuterClothing
-  - DocShoes
-  - ContractorFace
-  - ContractorGlasses
-  - ContractorBelt
-  - DocEars
-  - ContractorBoxSurvival
-  - DocPDA
-  - ContractorWallet
-  - ContractorCartridge
-  - ContractorImplanter
-  - ContractorEncryptionKey
-  - ContractorFun
-  - ContractorTrinkets
-  - ContractorBureaucracy
+  - VicarHead
+  - VicarNeck
+  - VicarJumpsuit
+  - EcclesiaGloves
+  - EcclesiaBackpack
+  - GeneralOuterClothing
+  - EcclesiaShoes
+  - GeneralFace
+  - GeneralGlasses
+  - GeneralBelt
+#  - EcclesiaEars # Commented this out because it's filled by the StartingGear component.
+  - GeneralBoxSurvival
+#  - EcclesiaPDA # Commented this out because it's filled by the StartingGear component.
+  - GeneralWallet
+  - GeneralCartridge
+  - GeneralImplanter
+  - GeneralEncryptionKey
+  - GeneralFun
+  - GeneralTrinkets
+  - GeneralBureaucracy
   - NFSpeciesSpecific
   - GeneralFirearm
   - GeneralMag

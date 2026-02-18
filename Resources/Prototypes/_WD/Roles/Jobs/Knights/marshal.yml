@@ -43,7 +43,6 @@
     back:
     - Multitool
     - DoorRemoteNfsd
-    - BaseSecurityUplinkRadioSheriff
 
 - type: playTimeTracker
   id: JobMarshal
@@ -59,29 +58,28 @@
 - type: roleLoadout
   id: JobMarshal
   groups:
-  #  - StationRepHead
-  #  - StationRepNeck
-  #  - StationRepJumpsuit
-  - StationRepGloves
-  - StationRepBackpack
-  - StationRepOuterClothing
-  #  - GeneralShoes
-  #  - GeneralFace
-  #  - GeneralGlasses
-  #  - GeneralBelt
-  - MonoSecurityGuardHud
-  - StationRepEars
-  - MonoSecurityGuardShoes
-  - HeadofSecurityHead
-  - HeadofSecurityJumpsuit
-  - HeadofSecurityNeck
-  - ColonialLiaisonFirearm # Mono
-  - GeneralBoxSurvival
-  - StationRepPDA
+  - MarshalHead
+  - MarshalNeck
+  - MarshalJumpsuit
+  - KnightGloves
+  - MarshalBackpack
+  - MarshalOuterClothing
+  - KnightShoes
+  - KnightFace
+  - KnightGlasses
+  - KnightBelt
+  - KnightEars
+  - GeneralEncryptionKey
+  - NfsdBoxSurvival
+  - MarshalPDA
   - GeneralWallet
   - GeneralCartridge
   - GeneralImplanter
-  # - GeneralFun # Mono - no fun allowed
-  - StationRepTrinkets
+  - GeneralUtility
+  - GeneralFun
+  - GeneralTrinkets
   - GeneralBureaucracy
   - NFSpeciesSpecific
+  - KnightPrimary
+  - KnightSecondary
+  - KnightAmmo

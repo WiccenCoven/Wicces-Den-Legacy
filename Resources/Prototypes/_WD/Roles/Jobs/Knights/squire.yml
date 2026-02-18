@@ -29,45 +29,12 @@
 
 - type: startingGear
   id: SquireGear
-  equipment:
-    pocket1: WeaponPistolMk58 #WeaponPistolMk58Nonlethal
   storage:
     back:
-    - Magazine45_ACPPistolFMJ
-    - BaseSecurityUplinkRadioOfficer
     - RadioHandheldNF # Mono
 
 - type: playTimeTracker
   id: JobSquire
-
-- type: roleLoadout
-  id: JobSquire
-  groups:
-  # Mono Start
-  - MonoSecurityGuardOuterClothing
-  - MonoSecurityGuardBelt
-  - MonoSecurityGuardGaiter
-  - MonoSecurityGuardHud
-  - MonoSecurityGuardShoes
-  - MonoSecurityGuardJumpsuit
-  - MonoSecurityGuardBack
-  - SecurityGuardFirearm
-  - SecurityGuardPistol
-  - SecurityGuardAmmo
-  # Mono End
-  - SecurityGuardGloves
-  - SecurityGuardHead
-  - SecurityGuardEars
-  - NfsdBoxSurvival
-  - SecurityGuardPDA
-  - GeneralWallet
-  - GeneralCartridge
-  - GeneralImplanter
-  - GeneralEncryptionKey
-  - GeneralFun
-  - GeneralTrinkets
-  - GeneralBureaucracy
-  - NFSpeciesSpecific
 
 - type: entity
   id: SpawnPointSquire
@@ -86,3 +53,32 @@
   - Brig
   - Security
   - Mercenary
+
+- type: roleLoadout
+  id: JobSquire
+  groups:
+  - KnightHead
+  - GeneralNeck
+  - KnightJumpsuit
+  - KnightGloves
+  - KnightBackpack
+  - KnightOuterClothing
+  - KnightShoes
+  - KnightFace
+  - KnightGlasses
+  - KnightBelt
+  - KnightEars
+  - GeneralEncryptionKey
+  - NfsdBoxSurvival
+  - KnightPDA
+  - GeneralWallet
+  - GeneralCartridge
+  - GeneralImplanter
+  - GeneralUtility
+  - GeneralFun
+  - GeneralTrinkets
+  - GeneralBureaucracy
+  - NFSpeciesSpecific
+  - KnightPrimary
+  - KnightSecondary
+  - KnightAmmo

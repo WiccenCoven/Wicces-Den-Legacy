@@ -1,0 +1,205 @@
+- type: loadoutGroup
+  id: KnightOuterClothing
+  name: loadout-group-knight-outerclothing
+  minLimit: 1
+  loadouts:
+  - MonoSecurityGuardVestSlim
+  fallbacks:
+  - MonoSecurityGuardVestSlim
+
+- type: loadoutGroup
+  id: KnightBelt
+  name: loadout-group-knight-belt
+  minLimit: 1
+  loadouts:
+  - MonoSecurityGuardWebbing
+  - MonoSecurityGuardAssaultBelt
+  - MonoSecurityGuardSecurityCarrier
+  - MonoSecurityGuardSecurityCarrierLarge
+  fallbacks:
+  - MonoSecurityGuardWebbing
+
+- type: loadoutGroup
+  id: KnightFace
+  name: loadout-group-knight-face
+  loadouts:
+  - MonoSecurityGuardNeckGaiter
+  - MonoSecurityGuardNeckGaiterRed
+  - SecurityClothingMaskGasSecurity
+  fallbacks:
+  - MonoSecurityGuardNeckGaiter
+
+- type: loadoutGroup
+  id: KnightGlasses
+  name: loadout-group-knight-glasses
+  minLimit: 1
+  loadouts:
+  - MonoSecHUD
+  - KnightGlasses
+  fallbacks:
+  - MonoSecHUD
+
+- type: loadout
+  id: KnightGlasses
+  equipment:
+    eyes: ClothingEyesGlassesSecurity
+
+- type: loadoutGroup
+  id: KnightShoes
+  name: loadout-group-knight-shoes
+  minLimit: 1
+  loadouts:
+  - CombatBoots
+  - LeatherShoes
+  - SecurityWinterBoots
+  fallbacks:
+  - CombatBoots
+
+- type: loadoutGroup
+  id: KnightJumpsuit
+  name: loadout-group-knight-jumpsuit
+  minLimit: 1
+  loadouts:
+  - MonoSecJumpsuitRed
+  - MonoSecJumpsuitMaroon
+  fallbacks:
+  - MonoSecJumpsuitRed
+
+- type: loadoutGroup
+  id: KnightBackpack
+  name: loadout-group-knight-backpack
+  minLimit: 1
+  loadouts:
+  - MonoSecurityGuardBackpack
+  - MonoSecurityGuardSatchel
+  - MonoSecurityGuardDuffel
+  - MercenaryClothingModsuitSecurityPowerCell
+  fallbacks:
+  - MonoSecurityGuardBackpack
+
+- type: loadoutGroup
+  id: KnightGloves
+  name: loadout-group-knight-gloves
+  loadouts:
+  - CombatGloves
+  - ColorBlackGloves
+  - FingerlessGloves
+  - SecurityCombatGlovesBlack # Mono
+  fallbacks:
+  - SecurityCombatGlovesBlack # Mono
+
+- type: loadoutGroup
+  id: KnightHead
+  name: loadout-group-knight-head
+  minLimit: 0
+  loadouts:
+  - SecurityBeret
+  - SecurityHelmet
+
+- type: loadoutGroup
+  id: KnightEars
+  name: loadout-group-knight-ears
+  loadouts:
+  - SecurityGuardClothingHeadsetSecurityCommon
+  - SecurityGuardClothingHeadsetAltSecurityCommon
+  fallbacks:
+  - SecurityGuardClothingHeadsetSecurityCommon
+
+- type: loadoutGroup
+  id: KnightPDA
+  name: loadout-group-knight-id
+  loadouts:
+  - SecurityGuardSecurityGuardPDA
+  fallbacks:
+  - SecurityGuardSecurityGuardPDA
+
+- type: loadoutGroup
+  id: KnightPrimary
+  name: loadout-group-knight-primary
+  minLimit: 0
+  loadouts:
+  - KnightDrozdLoadout
+  - KnightAkLoadout
+  - KnightLecterLoadout
+  - KnightVulcanLoadout
+  - KnightVectorLoadout
+  - KnightKammererLoadout
+  - KnightEnforcerLoadout
+  - KnightDisablerSMGLoadout
+  - KnightEnergyGunLoadout
+
+- type: loadoutGroup
+  id: KnightSecondary
+  name: loadout-group-knight-secondary
+  minLimit: 1
+  loadouts:
+  - KnightMk58Loadout #MK58
+
+- type: loadoutGroup
+  id: KnightAmmo
+  name: loadout-group-knight-ammo
+  minLimit: 1
+  loadouts:
+  - KnightAcpPistolRubberAmmoLoadout #MK58
+  - KnightAcpSmgAmmoRubberLoadout #Drozd / vector
+  - KnightBeanbagAmmoLoadout #Beanbag
+  - Knight556x45mmAmmoLoadout # lecter
+  - Knight762x39AmmoLoadout # ak
+  - Knight762x51AmmoLoadout # vulkan
+
+# Job Specific
+
+- type: loadoutGroup
+  id: MarshalJumpsuit
+  name: loadout-group-marshal-jumpsuit
+  loadouts:
+  - HeadofSecurityJumpsuit
+  - HeadofSecurityJumpskirt
+  - HeadofSecurityTurtleneck
+  - HeadofSecurityTurtleneckSkirt
+  - HeadofSecurityFormalSuit
+  - HeadofSecurityFormalSkirt
+
+- type: loadoutGroup
+  id: MarshalBackpack
+  name: loadout-group-marshal-backpack
+  loadouts:
+  - StationRepClothingModsuitHeadOfSecurityPowerCell
+  - MonoSecurityGuardBackpack
+  - MonoSecurityGuardSatchel
+  - MonoSecurityGuardDuffel
+  fallbacks:
+  - MonoSecurityGuardBackpack
+
+- type: loadoutGroup
+  id: MarshalOuterClothing
+  name: loadout-group-marshal-outerclothing
+  minLimit: 0
+  loadouts:
+  - StationRepClothingOuterHardsuitSecurityRed
+  - HeadofSecurityCoat
+  - HeadofSecurityWinterCoat
+
+- type: loadoutGroup
+  id: MarshalHead
+  name: loadout-group-marshal-head
+  minLimit: 0
+  loadouts:
+  - HeadofSecurityHead
+  - HeadofSecurityBeret
+
+- type: loadoutGroup
+  id: MarshalNeck
+  name: loadout-group-marshal-neck
+  minLimit: 0
+  loadouts:
+  - HeadofSecurityCloak
+  - HeadofSecurityMantle
+
+- type: loadoutGroup
+  id: MarshalPDA
+  name: loadout-group-marshal-id
+  loadouts:
+  - StationRepSrPDA
+  fallbacks:
+  - StationRepSrPDA
