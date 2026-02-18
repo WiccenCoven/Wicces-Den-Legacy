@@ -32,7 +32,6 @@
   id: KnightGear
   storage:
     back:
-    - BaseSecurityUplinkRadioOfficer
     - RadioHandheldNF # Mono
 
 - type: playTimeTracker

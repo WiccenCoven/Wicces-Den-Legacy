@@ -43,7 +43,6 @@
     back:
     - Multitool
     - DoorRemoteNfsd
-    - BaseSecurityUplinkRadioSheriff
 
 - type: playTimeTracker
   id: JobMarshal

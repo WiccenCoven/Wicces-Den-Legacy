@@ -31,7 +31,6 @@
   id: SquireGear
   storage:
     back:
-    - BaseSecurityUplinkRadioOfficer
     - RadioHandheldNF # Mono
 
 - type: playTimeTracker
