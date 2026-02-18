@@ -32,8 +32,8 @@
 - type: roleLoadout
   id: JobMechanitor
   groups:
-  - GeneralHead
-  - GeneralNeck
+  - VistulaHead
+  - VistulaNeck
   - VistulaJumpsuit
   - VistulaGloves
   - VistulaBackpack

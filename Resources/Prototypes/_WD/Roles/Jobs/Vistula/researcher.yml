@@ -39,8 +39,8 @@
 - type: roleLoadout
   id: JobResearcher
   groups:
-  - GeneralHead
-  - GeneralNeck
+  - VistulaHead
+  - VistulaNeck
   - VistulaJumpsuit
   - VistulaGloves
   - VistulaBackpack

@@ -37,6 +37,8 @@ loadout-group-vistula-id = ID+PDA (VI:ROA)
 loadout-group-vistula-ears = Ears (VI:ROA)
 loadout-group-vistula-gloves = Gloves (VI:ROA)
 loadout-group-vistula-shoes = Shoes (VI:ROA)
+loadout-group-vistula-head = Head (VI:ROA)
+loadout-group-vistula-neck = Neck (VI:ROA)
 
 # Job Specific
 loadout-group-vicar-jumpsuit = Jumpsuit (Vicar)
@@ -44,5 +46,4 @@ loadout-group-vicar-neck = Neck (Vicar)
 loadout-group-vicar-head = Head (Vicar)
 
 loadout-group-provost-jumpsuit = Jumpsuit (Provost)
-loadout-group-provost-neck = Neck (Provost)
-loadout-group-provost-head = Head (Provost)
+

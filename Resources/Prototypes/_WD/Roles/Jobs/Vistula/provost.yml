@@ -46,8 +46,8 @@
 - type: roleLoadout
   id: JobProvost
   groups:
-  - DocHead
-  - DocNeck
+  - VistulaHead
+  - VistulaNeck
   - ProvostJumpsuit
   - VistulaGloves
   - VistulaBackpack

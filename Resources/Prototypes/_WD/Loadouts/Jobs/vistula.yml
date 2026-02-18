@@ -26,6 +26,15 @@
   - MedicalDoctorJumpsuit
 
 - type: loadoutGroup
+  id: VistulaHead
+  name: loadout-group-vistula-head
+  minLimit: 0
+  loadouts:
+  - ContractorClothingHeadHatBeretRND
+  subgroups:
+  - GeneralHead
+
+- type: loadoutGroup
   id: VistulaBackpack
   name: loadout-group-vistula-backpack
   loadouts:
@@ -66,6 +75,16 @@
   - LatexGloves
 
 - type: loadoutGroup
+  id: VistulaNeck
+  name: loadout-group-vistula-neck
+  minLimit: 0
+  loadouts:
+  - ContractorClothingNeckTieSci
+  subgroups:
+  - GeneralNeck
+
+
+- type: loadoutGroup
   id: VistulaShoes
   name: loadout-group-vistula-shoes
   loadouts:
@@ -91,23 +110,3 @@
   fallbacks:
   - ContractorClothingUniformJumpsuitSeniorResearcher
   - ContractorClothingUniformJumpskirtSeniorResearcher
-
-- type: loadoutGroup
-  id: ProvostNeck
-  name: loadout-group-provost-neck
-  minLimit: 0
-  loadouts:
-  - ContractorClothingNeckCloakRd
-  - ContractorClothingNeckMantleRD
-  subgroups:
-  - GeneralNeck
-
-- type: loadoutGroup
-  id: ProvostHead
-  name: loadout-group-provost-head
-  minLimit: 0
-  loadouts:
-  - ChiefMedicalOfficerBeret
-  - CMOMedicalHeadMirror
-  subgroups:
-  - GeneralHead
