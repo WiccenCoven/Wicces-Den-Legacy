@@ -1,3 +1,4 @@
+# Generic
 loadout-group-general-jumpsuit = Jumpsuit (Generic)
 loadout-group-general-backpack = Backpack (Generic)
 loadout-group-general-outerclothing = Outer Clothing (Generic)
@@ -19,8 +20,29 @@ loadout-group-general-wallet = Wallet (Generic)
 loadout-group-general-cartridge = PDA Cartridge (Generic)
 loadout-group-general-implanter = Implanter (Generic)
 loadout-group-general-bureaucracy = Bureaucracy (Generic)
-
 loadout-group-weapon-general = Weapon (Generic)
 loadout-group-magazine-general = Ammo (Generic)
 
+# Faction Specific
+loadout-group-ecclesia-jumpsuit = Jumpsuit (Ecclesia)
+loadout-group-ecclesia-backpack = Backpack (Ecclesia)
+loadout-group-ecclesia-id = ID+PDA (Ecclesia)
+loadout-group-ecclesia-ears = Ears (Ecclesia)
+loadout-group-ecclesia-gloves = Gloves (Ecclesia)
+loadout-group-ecclesia-shoes = Shoes (Ecclesia)
+
+loadout-group-vistula-jumpsuit = Jumpsuit (VI:ROA)
+loadout-group-vistula-backpack = Backpack (VI:ROA)
+loadout-group-vistula-id = ID+PDA (VI:ROA)
+loadout-group-vistula-ears = Ears (VI:ROA)
+loadout-group-vistula-gloves = Gloves (VI:ROA)
+loadout-group-vistula-shoes = Shoes (VI:ROA)
+
 # Job Specific
+loadout-group-vicar-jumpsuit = Jumpsuit (Vicar)
+loadout-group-vicar-neck = Neck (Vicar)
+loadout-group-vicar-head = Head (Vicar)
+
+loadout-group-provost-jumpsuit = Jumpsuit (Provost)
+loadout-group-provost-neck = Neck (Provost)
+loadout-group-provost-head = Head (Provost)

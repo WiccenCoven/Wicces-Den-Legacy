@@ -12,6 +12,12 @@
   accessGroups:
   - VistulaAccess
 
+- type: startingGear
+  id: MechanitorGear
+  equipment:
+    id: SciencePDA
+    ears: ClothingHeadsetScience
+
 - type: playTimeTracker
   id: JobMechanitor
 
@@ -26,26 +32,26 @@
 - type: roleLoadout
   id: JobMechanitor
   groups:
-  - ContractorHead
-  - ContractorNeck
-  - MdMedicJumpsuit
-  - MdMedicGloves
-  - MdMedicBackpack
-  - ContractorOuterClothing
-  - ContractorShoes
-  - ContractorFace
-  - ContractorGlasses
-  - ContractorBelt
-  - MdMedicEars
-  - ContractorBoxSurvival
-  - MdMedicPDA
-  - ContractorWallet
-  - ContractorCartridge
-  - ContractorImplanter
-  - ContractorEncryptionKey
-  - ContractorFun
-  - ContractorTrinkets
-  - ContractorBureaucracy
+  - GeneralHead
+  - GeneralNeck
+  - VistulaJumpsuit
+  - VistulaGloves
+  - VistulaBackpack
+  - GeneralOuterClothing
+  - GeneralShoes
+  - GeneralFace
+  - GeneralGlasses
+  - GeneralBelt
+#  - VistulaEars # Commented this out because it's filled by the StartingGear component.
+  - GeneralBoxSurvival
+#  - VistulaPDA # Commented this out because it's filled by the StartingGear component.
+  - GeneralWallet
+  - GeneralCartridge
+  - GeneralImplanter
+  - GeneralEncryptionKey
+  - GeneralFun
+  - GeneralTrinkets
+  - GeneralBureaucracy
   - NFSpeciesSpecific
   - GeneralFirearm
   - GeneralMag

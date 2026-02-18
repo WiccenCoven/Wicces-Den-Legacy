@@ -18,6 +18,12 @@
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
 
+- type: startingGear
+  id: ProvostGear
+  equipment:
+    id: SciencePDA
+    ears: ClothingHeadsetScience
+
 - type: accessGroup
   id: ProvostAccess
   tags:
@@ -42,17 +48,17 @@
   groups:
   - DocHead
   - DocNeck
-  - DocJumpsuit
-  - DocGloves
-  - MdMedicBackpack
+  - ProvostJumpsuit
+  - VistulaGloves
+  - VistulaBackpack
   - GeneralOuterClothing
-  - DocShoes
+  - VistulaShoes
   - GeneralFace
   - GeneralGlasses
   - GeneralBelt
-  - DocEars
+#  - VistulaEars # Commented this out because it's filled by the StartingGear component.
   - GeneralBoxSurvival
-  - DocPDA
+#  - VistulaPDA # Commented this out because it's filled by the StartingGear component.
   - GeneralWallet
   - GeneralCartridge
   - GeneralImplanter

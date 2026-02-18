@@ -22,7 +22,6 @@
   id: CurateGear
   equipment:
     ears: ClothingHeadsetMedical
-    belt: ClothingBeltMedicalFilled
 
 - type: accessGroup
   id: CurateAccess
@@ -45,26 +44,26 @@
 - type: roleLoadout
   id: JobCurate
   groups:
-  - ContractorHead
-  - ContractorNeck
-  - MdMedicJumpsuit
-  - MdMedicGloves
-  - MdMedicBackpack
-  - ContractorOuterClothing
-  - ContractorShoes
-  - ContractorFace
-  - ContractorGlasses
-  - ContractorBelt
-  - MdMedicEars
-  - ContractorBoxSurvival
-  - MdMedicPDA
-  - ContractorWallet
-  - ContractorCartridge
-  - ContractorImplanter
-  - ContractorEncryptionKey
-  - ContractorFun
-  - ContractorTrinkets
-  - ContractorBureaucracy
+  - GeneralHead
+  - GeneralNeck
+  - EcclesiaJumpsuit
+  - EcclesiaGloves
+  - EcclesiaBackpack
+  - GeneralOuterClothing
+  - GeneralShoes
+  - GeneralFace
+  - GeneralGlasses
+  - GeneralBelt
+#  - EcclesiaEars # Commented this out because it's filled by the StartingGear component.
+  - GeneralBoxSurvival
+  - EcclesiaPDA
+  - GeneralWallet
+  - GeneralCartridge
+  - GeneralImplanter
+  - GeneralEncryptionKey
+  - GeneralFun
+  - GeneralTrinkets
+  - GeneralBureaucracy
   - NFSpeciesSpecific
   - GeneralFirearm
   - GeneralMag
