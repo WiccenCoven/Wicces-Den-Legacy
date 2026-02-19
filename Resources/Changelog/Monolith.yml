@@ -17169,3 +17169,12 @@ Entries:
   id: 1896
   time: '2026-02-18T00:26:05.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3242
+- author: Kiithnaras
+  changes:
+    - type: Fix
+      message: >-
+        CDM Comet - enabled an offline thruster and added disposal pipes for
+        toilet.
+  id: 1897
+  time: '2026-02-19T18:50:42.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3251
