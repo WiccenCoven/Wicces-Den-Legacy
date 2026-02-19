@@ -1,0 +1,14 @@
+- type: entity
+  parent: ClothingHandsButcherable
+  id: ClothingHandsGlovesEcclesiaNitrile
+  name: red nitrile gloves
+  description: High-quality red nitrile gloves.
+  components:
+  - type: Sprite
+    sprite: _Omu/Clothing/Hands/Gloves/nitrilecybersun.rsi
+  - type: Clothing
+    sprite: _Omu/Clothing/Hands/Gloves/nitrilecybersun.rsi
+  - type: Fiber
+    fiberMaterial: fibers-nitrile
+    fiberColor: fibers-red
+  - type: FingerprintMask

@@ -1,0 +1,11 @@
+- type: loadout
+  id: ClothingOuterHardsuitEcclesiaParamedic
+  price: 0
+  equipment:
+    outerClothing: ClothingOuterHardsuitEcclesiaParamedic
+
+- type: loadout
+  id: ClothingOuterHardsuitEcclesiaVicar
+  price: 0
+  equipment:
+    outerClothing: ClothingOuterHardsuitEcclesiaVicar

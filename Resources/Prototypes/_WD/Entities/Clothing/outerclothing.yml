@@ -1,0 +1,50 @@
+- type: entity
+  parent: ClothingOuterHardsuitVoidParamed
+  id: ClothingOuterHardsuitEcclesiaParamedic
+  name: Ecclesia Paramedic hardsuit
+  description: An Eccelsia branded hardsuit, often used by emergency medical technicians.
+  components:
+  - type: Sprite
+    sprite: _Omu/Clothing/OuterClothing/Hardsuits/cybersunparamedhardsuit.rsi
+  - type: Clothing
+    sprite: _Omu/Clothing/OuterClothing/Hardsuits/cybersunparamedhardsuit.rsi
+  - type: ToggleableClothing
+    clothingPrototypes:
+      head: ClothingHeadHelmetEcclesiaParamedic
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitEcclesiaVicar
+  name: Ecclesia Vicar hardsuit
+  description: An Eccelsia branded hardsuit, designed for use by the Vicar. Armored and lightweight.
+  components:
+  - type: Sprite
+    sprite: _Omu/Clothing/OuterClothing/Hardsuits/cybersunscientisthardsuit.rsi
+  - type: Clothing
+    sprite: _Omu/Clothing/OuterClothing/Hardsuits/cybersunscientisthardsuit.rsi
+  - type: ToggleableClothing
+    clothingPrototypes:
+      head: ClothingHeadHelmetEcclesiaVicar
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: TemperatureProtection
+    heatingCoefficient: 0.001
+    coolingCoefficient: 0.001
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: FireProtection
+    reduction: 0.6
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.55
+        Slash: 0.55
+        Piercing: 0.5
+        Heat: 0.5
+        Radiation: 0.35
+        Caustic: 0.2
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: HeldSpeedModifier

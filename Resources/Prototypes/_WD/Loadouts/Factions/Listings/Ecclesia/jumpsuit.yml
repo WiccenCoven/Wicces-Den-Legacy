@@ -1,0 +1,17 @@
+- type: loadout
+  id: ClothingUniformEcclesiaMedicalJumpsuit
+  price: 0
+  equipment:
+    jumpsuit: ClothingUniformEcclesiaMedicalJumpsuit
+
+- type: loadout
+  id: ClothingUniformEcclesiaMedicalJumpskirt
+  price: 0
+  equipment:
+    jumpsuit: ClothingUniformEcclesiaMedicalJumpskirt
+
+- type: loadout
+  id: ClothingUniformEcclesiaParamedJumpsuit
+  price: 0
+  equipment:
+    jumpsuit: ClothingUniformEcclesiaParamedJumpsuit

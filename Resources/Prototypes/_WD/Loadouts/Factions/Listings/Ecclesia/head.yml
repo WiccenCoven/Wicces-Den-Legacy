@@ -1,0 +1,5 @@
+- type: loadout
+  id: ClothingHeadEcclesiaParamedic
+  price: 0
+  equipment:
+    head: ClothingHeadHatParamedicEcclesia

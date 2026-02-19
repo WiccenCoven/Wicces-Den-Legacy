@@ -3,23 +3,14 @@
   id: EcclesiaJumpsuit
   name: loadout-group-ecclesia-jumpsuit
   loadouts:
-  - MedicalDoctorJumpsuit
-  - MedicalDoctorJumpskirt
+  - ClothingUniformEcclesiaMedicalJumpsuit
+  - ClothingUniformEcclesiaMedicalJumpskirt
+  - ClothingUniformEcclesiaParamedJumpsuit
   - MedicalBlueScrubs
   - MedicalGreenScrubs
   - MedicalPurpleScrubs
   - ContractorClothingUniformJumpsuitSeniorPhysician
   - ContractorClothingUniformJumpskirtSeniorPhysician
-  - ContractorClothingUniformJumpsuitParamedic
-  - ContractorClothingUniformJumpskirtParamedic
-  - ContractorClothingUniformJumpsuitVirology
-  - ContractorClothingUniformJumpskirtVirology
-  - ContractorClothingUniformJumpsuitChemistry
-  - ContractorClothingUniformJumpskirtChemistry
-  - ContractorClothingUniformJumpsuitGenetics
-  - ContractorClothingUniformJumpskirtGenetics
-  - ContractorClothingUniformJumpsuitPsychologist
-  - ContractorClothingUniformJumpskirtPsychologist
   subgroups:
   - GeneralJumpsuit
   fallbacks:
@@ -29,7 +20,7 @@
   id: EcclesiaBackpack
   name: loadout-group-ecclesia-backpack
   loadouts:
-  - MdMedicClothingModsuitParamedicPowerCell
+#  - MdMedicClothingModsuitParamedicPowerCell # Kept for historical reasons.
   - DocClothingBackpackMedical
   - DocClothingBackpackDuffelMedical
   - DocClothingBackpackSatchelMedical
@@ -38,6 +29,32 @@
   - GeneralBackpack
   fallbacks:
   - DocClothingBackpackMedical
+
+- type: loadoutGroup
+  id: EcclesiaHead
+  name: loadout-group-ecclesia-head
+  loadouts:
+  - ClothingHeadEcclesiaParamedic
+  - ContractorClothingHeadHatBeretSeniorPhysician
+  - ContractorClothingHeadHatBeretMedic # Reused intentionally.
+  - ContractorClothingHeadHatSurgcapGreen # Reused intentionally.
+  - ContractorClothingHeadHatSurgcapBlue # Reused intentionally.
+  - ContractorClothingHeadHatSurgcapPurple # Reused intentionally.
+  - ContractorClothingHeadNurseHat # Reused intentionally.
+  subgroups:
+  - GeneralHead
+  fallbacks:
+  - ClothingHeadEcclesiaParamedic
+
+- type: loadoutGroup
+  id: EcclesiaOuterClothing
+  name: loadout-group-ecclesia-outer-clothing
+  loadouts:
+  - ClothingOuterHardsuitEcclesiaParamedic
+  subgroups:
+  - GeneralOuterClothing
+  fallbacks:
+  - ClothingOuterHardsuitEcclesiaParamedic
 
 - type: loadoutGroup
   id: EcclesiaPDA
@@ -62,6 +79,7 @@
   name: loadout-group-ecclesia-gloves
   minLimit: 0
   loadouts:
+  - ClothingHandsEcclesiaNitrile
   - NitrileGloves
   - LatexGloves
 
@@ -93,6 +111,14 @@
   - ChiefMedicalOfficerJumpskirt
 
 - type: loadoutGroup
+  id: VicarOuterClothing
+  name: loadout-group-vicar-outer-clothing
+  loadouts:
+  - ClothingOuterHardsuitEcclesiaVicar
+  subgroups:
+  - GeneralOuterClothing
+
+- type: loadoutGroup
   id: VicarNeck
   name: loadout-group-vicar-neck
   minLimit: 0
@@ -110,4 +136,5 @@
   - ChiefMedicalOfficerBeret
   - CMOMedicalHeadMirror
   subgroups:
+  - EcclesiaHead
   - GeneralHead

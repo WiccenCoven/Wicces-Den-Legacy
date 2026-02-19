@@ -44,12 +44,12 @@
 - type: roleLoadout
   id: JobCurate
   groups:
-  - GeneralHead
+  - EcclesiaHead
   - GeneralNeck
   - EcclesiaJumpsuit
   - EcclesiaGloves
   - EcclesiaBackpack
-  - GeneralOuterClothing
+  - EcclesiaOuterClothing
   - GeneralShoes
   - GeneralFace
   - GeneralGlasses
