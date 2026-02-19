@@ -17206,3 +17206,13 @@ Entries:
   id: 1900
   time: '2026-02-19T19:48:34.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3220
+- author: Helicaste
+  changes:
+    - type: Tweak
+      message: >-
+        Security Guards are now known as Judges. They still answer to the
+        Overseer, but now you have another excuse to scream "I AM THE LAW" at
+        every possible opportunity.
+  id: 1901
+  time: '2026-02-19T19:50:27.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3218
