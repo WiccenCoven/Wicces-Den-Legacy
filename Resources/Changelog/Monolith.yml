@@ -17196,3 +17196,13 @@ Entries:
   id: 1899
   time: '2026-02-19T19:42:06.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3240
+- author: UnicornOnLSD
+  changes:
+    - type: Tweak
+      message: >-
+        DIS Vaquita has received a scrap processor, up to date radar signature,
+        and has seen one of it's mining pulsers removed. Report any issues to me
+        on discord (@UnicornOnLSD)
+  id: 1900
+  time: '2026-02-19T19:48:34.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3220
