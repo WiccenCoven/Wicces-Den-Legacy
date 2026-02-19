@@ -1,0 +1,32 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformCybersunMedicalJumpsuit
+  name: Ecclesia medical jumpsuit
+  description: Sterile coveralls worn by Ecclesia staff for protection against biological hazards.
+  components:
+  - type: Sprite
+    sprite: _Omu/Clothing/Uniforms/Jumpsuit/cybersunmedicaljumpsuit.rsi
+  - type: Clothing
+    sprite: _Omu/Clothing/Uniforms/Jumpsuit/cybersunmedicaljumpsuit.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformEcclesiaMedicalJumpskirt
+  name: Ecclesia medical jumpskirt
+  description: Sterile jumpskirt worn by Ecclesia staff for protection against biological hazards.
+  components:
+  - type: Sprite
+    sprite: _Omu/Clothing/Uniforms/Jumpskirt/cybersunmedicaljumpskirt.rsi
+  - type: Clothing
+    sprite: _Omu/Clothing/Uniforms/Jumpskirt/cybersunmedicaljumpskirt.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformEcclesiaParamedJumpsuit
+  name: Ecclesia Paramedic suit
+  description: Sterile suit worn by Ecclesia emergency medical technicians, with some red for identification.
+  components:
+  - type: Sprite
+    sprite: _Omu/Clothing/Uniforms/Jumpsuit/cybersunparamed.rsi
+  - type: Clothing
+    sprite: _Omu/Clothing/Uniforms/Jumpsuit/cybersunparamed.rsi
