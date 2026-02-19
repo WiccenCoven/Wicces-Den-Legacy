@@ -19,14 +19,13 @@
   name: loadout-group-vistula-outer-clothing
   loadouts:
   - ContractorClothingOuterCoatLab # Reused on purpose.
-  - ContractorClothingOuterCoatLabRnd
   - ContractorClothingOuterCoatRobo
   - ContractorClothingOuterWinterSci
   - ContractorClothingOuterWinterRobo
   subgroups:
   - GeneralOuterClothing
   fallbacks:
-  - ContractorClothingOuterCoatLabRnd
+  - ContractorClothingOuterCoatLab
 
 - type: loadoutGroup
   id: VistulaHead
