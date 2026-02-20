@@ -70,7 +70,7 @@
     boardName: wires-board-name-airalarm
     layoutId: AirAlarm
   - type: AccessReader
-    access: [["Atmospherics"], ["Captain"], ["USSPHigh"], ["USSPCommand"]] # Frontier: allowed ["Captain"] to access air alarms, Mono: added USSP access
+    access: [["Atmospherics"], ["Captain"], ["USSPHigh"], ["USSPCommand"], ["Maintenance"]] # Frontier: allowed ["Captain"] to access air alarms, Mono: added USSP access, Wicce: Added Maintenance and Exterior access
   - type: ContainerFill
     containers:
       board: [ AirAlarmElectronics ]
