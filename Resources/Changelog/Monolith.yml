@@ -17225,3 +17225,10 @@ Entries:
   id: 1902
   time: '2026-02-21T14:33:52.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3264
+- author: 10kee
+  changes:
+    - type: Fix
+      message: Fixes a missing layer on the Vox Thrasher tail
+  id: 1903
+  time: '2026-02-21T16:48:54.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3255
