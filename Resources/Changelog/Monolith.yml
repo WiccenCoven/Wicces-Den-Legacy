@@ -17256,3 +17256,14 @@ Entries:
   id: 1906
   time: '2026-02-22T02:35:27.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3265
+- author: tonotom1
+  changes:
+    - type: Add
+      message: Ported colored paper and sticky notes from DV. All credit to densetsu
+    - type: Add
+      message: Added manila envelopes by skye1803
+    - type: Tweak
+      message: The Janitorial supplies crate now has cleanades again!
+  id: 1907
+  time: '2026-02-22T03:05:27.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3210
