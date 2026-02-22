@@ -17232,3 +17232,10 @@ Entries:
   id: 1903
   time: '2026-02-21T16:48:54.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3255
+- author: Redrover1760
+  changes:
+    - type: Remove
+      message: New players are no longer pacified on CC/MD
+  id: 1904
+  time: '2026-02-22T01:16:12.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3248
