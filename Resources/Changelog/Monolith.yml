@@ -17317,3 +17317,14 @@ Entries:
   id: 1913
   time: '2026-02-23T05:18:37.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3263
+- author: Kiithnaras
+  changes:
+    - type: Fix
+      message: Added hunger and thirst to hydrakin for real.
+    - type: Fix
+      message: >-
+        Hydrakin species language definitions attached to species mob instead of
+        player mob for consistency.
+  id: 1914
+  time: '2026-02-23T13:24:55.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3278
