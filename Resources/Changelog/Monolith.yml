@@ -17328,3 +17328,10 @@ Entries:
   id: 1914
   time: '2026-02-23T13:24:55.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3278
+- author: Ilya246
+  changes:
+    - type: Fix
+      message: Potentially fixed FTLing docked ships lodging the other ship in you.
+  id: 1915
+  time: '2026-02-23T16:06:55.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3273
