@@ -17419,3 +17419,16 @@ Entries:
   id: 1922
   time: '2026-02-24T19:42:25.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3253
+- author: UnicornOnLSD
+  changes:
+    - type: Add
+      message: >-
+        The DIS Femur is now available. A power hungry yet fast EMP-geared,
+        boarding focused menace.
+    - type: Remove
+      message: >-
+        The SHM Acera has been discontinued after several failed space OSHA
+        inspections.
+  id: 1923
+  time: '2026-02-24T20:00:03.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3272
