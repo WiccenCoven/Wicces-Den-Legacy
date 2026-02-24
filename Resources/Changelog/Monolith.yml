@@ -17367,3 +17367,12 @@ Entries:
   id: 1919
   time: '2026-02-24T13:49:46.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3283
+- author: Mrrpip
+  changes:
+    - type: Fix
+      message: >-
+        Re-adds signal based firing to various shipguns, with full auto
+        capabilities for the Dravon and AK570.
+  id: 1920
+  time: '2026-02-24T18:57:45.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3275
