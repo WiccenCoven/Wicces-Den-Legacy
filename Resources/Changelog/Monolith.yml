@@ -17448,3 +17448,14 @@ Entries:
   id: 1925
   time: '2026-02-24T20:15:18.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3168
+- author: burrrkeye
+  changes:
+    - type: Add
+      message: >-
+        PDV BT-Y Hazel has been outfitted with 2 Vanyk missile pods replacing
+        the AK-570s
+    - type: Remove
+      message: Removed fun!
+  id: 1926
+  time: '2026-02-24T20:30:29.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3212
