@@ -17383,3 +17383,39 @@ Entries:
   id: 1921
   time: '2026-02-24T19:00:22.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3279
+- author: Kiithnaras
+  changes:
+    - type: Tweak
+      message: >-
+        Walk speed of all S2 and S4 mecha increased to roughly half their Sprint
+        speeds.
+    - type: Tweak
+      message: Broadsword and Halberd Sprint speed increased from 1 to 1.33
+    - type: Tweak
+      message: Sabre space speed doubled from 0.3 to 0.66
+    - type: Tweak
+      message: Spyglass Sprint speed increased from 0.5 to 0.8
+    - type: Tweak
+      message: Mace Sprint speed increased from 1.0 to 1.2
+    - type: Tweak
+      message: Increased capacity of all Power Cages
+    - type: Tweak
+      message: Increased Lathe costs of all Power Cages
+    - type: Add
+      message: >-
+        Various Power Cages can be printed directly in the Exofab instead of
+        needing a merc/military fab.
+    - type: Tweak
+      message: >-
+        Mech Fuel Cell now costs Fissile Uranium (1) and Diamond (1) among other
+        cost changes, but auto-regens to full within 4 minutes. 
+    - type: Tweak
+      message: >-
+        Balance pass on Armored Frame (S2/S4 mech) weapons - RAC-6 spreads
+        slower, LAC-29 spreads slower and firing is cheaper, DMR-90 spreads
+        slower and fires cheaper, ASM-55 fires cheaper, R3 has bigger boom and
+        has actual but limited tracking, Metronome structure damage increased
+        slightly and accuracy greatly increased, Ravager firing costs increased
+  id: 1922
+  time: '2026-02-24T19:42:25.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3253
