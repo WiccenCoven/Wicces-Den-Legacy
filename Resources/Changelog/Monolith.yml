@@ -17358,3 +17358,12 @@ Entries:
   id: 1918
   time: '2026-02-24T13:23:51.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3280
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: >-
+        Thieving trait no longer is stealthy stripping for free. Now costs 2
+        points and is slightly faster.
+  id: 1919
+  time: '2026-02-24T13:49:46.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3283
