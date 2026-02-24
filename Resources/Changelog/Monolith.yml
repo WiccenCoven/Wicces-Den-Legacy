@@ -17432,3 +17432,10 @@ Entries:
   id: 1923
   time: '2026-02-24T20:00:03.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3272
+- author: KeiKiyomi
+  changes:
+    - type: Add
+      message: Command Relay Device for DoC, Overseer, Vizier, and Colonel
+  id: 1924
+  time: '2026-02-24T20:13:54.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3178
