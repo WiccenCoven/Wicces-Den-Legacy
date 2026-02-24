@@ -17459,3 +17459,12 @@ Entries:
   id: 1926
   time: '2026-02-24T20:30:29.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3212
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: >-
+        ADS/ADM lawset makes clear that military outposts are protected under
+        the laws.
+  id: 1927
+  time: '2026-02-24T22:27:48.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3282
