@@ -17439,3 +17439,12 @@ Entries:
   id: 1924
   time: '2026-02-24T20:13:54.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3178
+- author: rishani-ss14
+  changes:
+    - type: Fix
+      message: >-
+        Replaced the valet voucher that Service Workers spawn with, with their
+        own, new service ship voucher.
+  id: 1925
+  time: '2026-02-24T20:15:18.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3168
