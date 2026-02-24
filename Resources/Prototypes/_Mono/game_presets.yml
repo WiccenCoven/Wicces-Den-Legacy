@@ -72,9 +72,9 @@
   - NFAdventure
   - BasicStationEventScheduler
   - BluespaceEventScheduler
-  - BluespaceDungeonEventScheduler
+#  - BluespaceDungeonEventScheduler # Wicce: Vgroids lag the SHIT out of the server. No thanks.
   - BluespaceSalvageEventScheduler
-  - SmugglingEventScheduler
+#  - SmugglingEventScheduler # Wicce: Smuggle what, my dear? We're all on the same side here.
   - FrontierRoundstartVariation
   - MonoAISTCShuttleSpawnerScheduler
   - MonoAISTCShuttleSpawnerSchedulerTier2
