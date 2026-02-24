@@ -61,7 +61,6 @@
   name: loadout-group-ecclesia-id
   loadouts:
   - MedicalDoctorPDA
-  - ContractorSeniorPhysicianPDA
   fallbacks:
   - MdMedicMedicalPDA
 

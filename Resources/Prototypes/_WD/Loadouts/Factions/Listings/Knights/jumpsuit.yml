@@ -1,0 +1,9 @@
+- type: loadout
+  id: KnightJumpsuitSecurity
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSec
+
+- type: loadout
+  id: KnightJumpskirtSecurity
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtSec

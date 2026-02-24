@@ -60,10 +60,10 @@
   name: loadout-group-knight-jumpsuit
   minLimit: 1
   loadouts:
-  - MonoSecJumpsuitRed
-  - MonoSecJumpsuitMaroon
+  - KnightJumpsuitSecurity
+  - KnightJumpskirtSecurity
   fallbacks:
-  - MonoSecJumpsuitRed
+  - KnightJumpsuitSecurity
 
 - type: loadoutGroup
   id: KnightBackpack
@@ -200,6 +200,6 @@
   id: MarshalPDA
   name: loadout-group-marshal-id
   loadouts:
-  - StationRepSrPDA
+  - MarshalPDA
   fallbacks:
-  - StationRepSrPDA
+  - MarshalPDA

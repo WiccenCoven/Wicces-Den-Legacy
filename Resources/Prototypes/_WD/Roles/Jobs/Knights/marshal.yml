@@ -18,7 +18,7 @@
   canBeAntag: false
   guides: [ BasicLore ]
   accessGroups:
-  - AllAccess
+  - MarshalAccess
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
@@ -34,11 +34,24 @@
     holiday: FrontierBirthday
     prototype: FrontierBirthdayGift
 
+- type: accessGroup
+  id: MarshalAccess
+  tags:
+  - Maintenance
+  - External
+  - Command
+  - Brig
+  - Security
+  - Armory
+  - Mercenary
+  - HeadOfSecurity
+
 - type: startingGear
   id: MarshalGear
   equipment:
     pocket1: WeaponEnergyGunMultiphase # DeltaV gun
     pocket2: EnergySwordNfsd
+    ears: ClothingHeadsetSecurity
   storage:
     back:
     - Multitool
@@ -68,7 +81,7 @@
   - KnightFace
   - KnightGlasses
   - KnightBelt
-  - KnightEars
+#  - KnightEars # Commented this out because it's filled by the StartingGear component.
   - GeneralEncryptionKey
   - NfsdBoxSurvival
   - MarshalPDA
@@ -83,3 +96,45 @@
   - KnightPrimary
   - KnightSecondary
   - KnightAmmo
+
+- type: entity
+  parent: HoPIDCard
+  id: MarshalIDCard
+  name: Marshal ID card
+  components:
+  - type: PresetIdCard
+    job: Marshal
+
+- type: entity
+  parent: BaseSecurityPDA
+  id: MarshalPDA
+  name: Marshal PDA
+  description: Looks like it's been clawed on.
+  components:
+  - type: Pda
+    id: MarshalIDCard
+    penSlot:
+      startingItem: PenCentcom
+      priority: -1
+      whitelist:
+        tags:
+        - Write
+  - type: Appearance
+    appearanceDataInit:
+      enum.PdaVisuals.PdaType:
+        !type:String
+        pda-hop
+  - type: PdaBorderColor
+    borderColor: "#789876"
+    accentHColor: "#447987"
+  - type: Icon
+    state: pda-hop
+  - type: CartridgeLoader
+    preinstalled:
+    - CrewManifestCartridge
+    - NotekeeperCartridge
+    - NewsReaderCartridge
+    - BountyContractsCartridge
+    - AstroNavCartridge
+    - LedgerCartridge
+    - MailMetricsCartridge

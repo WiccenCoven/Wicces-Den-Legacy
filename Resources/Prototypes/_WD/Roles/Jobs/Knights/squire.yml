@@ -29,6 +29,8 @@
 
 - type: startingGear
   id: SquireGear
+  equipment:
+    ears: ClothingHeadsetSecurity
   storage:
     back:
     - RadioHandheldNF # Mono
@@ -67,7 +69,7 @@
   - KnightFace
   - KnightGlasses
   - KnightBelt
-  - KnightEars
+#  - KnightEars # Commented this out because it's filled by the StartingGear component.
   - GeneralEncryptionKey
   - NfsdBoxSurvival
   - KnightPDA
