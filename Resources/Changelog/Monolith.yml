@@ -17351,3 +17351,10 @@ Entries:
   id: 1917
   time: '2026-02-24T12:49:18.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3281
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: 90mm pierce reduced 70->55. Explosion unchanged.
+  id: 1918
+  time: '2026-02-24T13:23:51.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3280
