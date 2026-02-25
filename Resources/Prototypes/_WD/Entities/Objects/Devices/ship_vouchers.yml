@@ -35,8 +35,8 @@
 - type: entity
   parent: BaseShipLPC
   id: ShipVoucherCommoner
-  name: Commoner's Guild LPC
-  description: A small card that contains the data and materials for the flashforge of a Commoner's Guild ship from the Ship-grade Nanoforge aboard the Arion.
+  name: Universal Commoner's Guild LPC
+  description: A small card that contains the data and materials for the flashforge of any Guild branded ship from the Arion's Ship-grade Nanoforge.
   components:
   - type: Sprite
     layers:
@@ -49,6 +49,26 @@
     consoleType: Commoner
     vessels: # Unless it's special, put the whole roster in!
     - Scarab
-    - Liquidator
+    - SophantAkula
+    - SophantSvinya
+    - SophantTayfun
+    - SophantNatisk
+    - SophantSirius
+    - SophantTick
+    - SophantPiva
+    - SophantSellsword
+    - SophantMudskipper
+    - SophantTwilight
   - type: StaticPrice
     vendPrice: 500000
+
+- type: entity
+  parent: ShipVoucherCommoner
+  id: ShipVoucherCommonerStarter
+  name: Commoner's Guild LPC
+  description: A small card that contains the data and materials for the flashforge of a Guild branded ship from the Arion's Ship-grade Nanoforge.
+  components:
+  - type: ShipyardVoucher
+    vessels: # Just starting vessels, please.
+    - Scarab
+    - SophantPiva

@@ -7,6 +7,7 @@
   parent: BaseVessel
   name: Scarab
   description: A mercenary ship.
+  purchasable: false # voucher only
   price: 999999 # Voucher only!
   category: Medium
   group: Commoner
@@ -19,11 +20,11 @@
 
 - type: gameMap
   id: Scarab
-  mapName: 'scarab'
+  mapName: 'Scarab'
   mapPath: /Maps/_WD/Shuttles/scarab.yml
   minPlayers: 0
   stations:
-    scarab:
+    Scarab:
       stationProto: StandardFrontierVessel
       components:
       - type: StationNameSetup

@@ -1,0 +1,30 @@
+- type: vessel
+  id: SophantNatisk
+  parent: BaseVessel
+  name: Natisk
+  description: A battered and neglected brawler hull, it's original manufacturers lost to time.
+  purchasable: false # voucher only
+  price: 64000
+  category: Medium
+  group: Commoner
+  shuttlePath: /Maps/_WD/Shuttles/Sophants/natisk.yml
+  guidebookPage: Null
+  class:
+  - Patrol
+  engine:
+  - AME
+
+- type: gameMap
+  id: SophantNatisk
+  mapName: 'SophantNatisk'
+  mapPath: /Maps/_WD/Shuttles/Sophants/natisk.yml
+  minPlayers: 0
+  stations:
+    SophantNatisk:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Natisk SP{1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'

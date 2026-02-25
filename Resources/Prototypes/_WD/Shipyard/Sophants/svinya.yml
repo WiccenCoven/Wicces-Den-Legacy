@@ -1,0 +1,30 @@
+- type: vessel
+  id: SophantSvinya
+  parent: BaseVessel
+  name: Svinya
+  description: A rusted out scout hull from a long dead military.
+  purchasable: false # voucher only
+  price: 64000
+  category: Small
+  group: Commoner
+  shuttlePath: /Maps/_WD/Shuttles/Sophants/svinya.yml
+  guidebookPage: Null
+  class:
+  - Patrol
+  engine:
+  - Uranium
+
+- type: gameMap
+  id: SophantSvinya
+  mapName: 'SophantSvinya'
+  mapPath: /Maps/_WD/Shuttles/Sophants/svinya.yml
+  minPlayers: 0
+  stations:
+    SophantSvinya:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Svinya SP{1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
