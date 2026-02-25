@@ -1,0 +1,30 @@
+- type: vessel
+  id: SophantMudskipper
+  parent: BaseVessel
+  name: Mudskipper
+  description: A battered and neglected brawler hull, it's original manufacturers lost to time.
+  purchasable: false # voucher only
+  price: 64000
+  category: Medium
+  group: Commoner
+  shuttlePath: /Maps/_WD/Shuttles/Sophants/mudskipper.yml
+  guidebookPage: Null
+  class:
+  - Patrol
+  engine:
+  - Plasma
+
+- type: gameMap
+  id: SophantMudskipper
+  mapName: 'SophantMudskipper'
+  mapPath: /Maps/_WD/Shuttles/Sophants/mudskipper.yml
+  minPlayers: 0
+  stations:
+    SophantMudskipper:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Mudskipper SP{1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'

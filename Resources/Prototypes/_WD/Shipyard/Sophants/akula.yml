@@ -1,0 +1,30 @@
+- type: vessel
+  id: SophantAkula
+  parent: BaseVessel
+  name: Akula
+  description: A rusted out scout hull from a long dead military.
+  purchasable: false # voucher only
+  price: 64000
+  category: Small
+  group: Commoner
+  shuttlePath: /Maps/_WD/Shuttles/Sophants/akula.yml
+  guidebookPage: Null
+  class:
+  - Patrol
+  engine:
+  - Uranium
+
+- type: gameMap
+  id: SophantAkula
+  mapName: 'SophantAkula'
+  mapPath: /Maps/_WD/Shuttles/Sophants/akula.yml
+  minPlayers: 0
+  stations:
+    SophantAkula:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Akula SP{1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'

@@ -1,0 +1,30 @@
+- type: vessel
+  id: SophantTayfun
+  parent: BaseVessel
+  name: Tayfun
+  description: A battered and neglected brawler hull, it's original manufacturers lost to time.
+  purchasable: false # voucher only
+  price: 64000
+  category: Medium
+  group: Commoner
+  shuttlePath: /Maps/_WD/Shuttles/Sophants/tayfun.yml
+  guidebookPage: Null
+  class:
+  - Patrol
+  engine:
+  - AME
+
+- type: gameMap
+  id: SophantTayfun
+  mapName: 'SophantTayfun'
+  mapPath: /Maps/_WD/Shuttles/Sophants/tayfun.yml
+  minPlayers: 0
+  stations:
+    SophantTayfun:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Tayfun SP{1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'

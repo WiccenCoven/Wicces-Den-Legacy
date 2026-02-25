@@ -1,0 +1,30 @@
+- type: vessel
+  id: SophantPiva
+  parent: BaseVessel
+  name: Piva
+  description: A tiny little transport shuttle, held together with spit and dreams.
+  purchasable: false # voucher only
+  price: 64000
+  category: Small
+  group: Commoner
+  shuttlePath: /Maps/_WD/Shuttles/Sophants/piva.yml
+  guidebookPage: Null
+  class:
+  - Patrol
+  engine:
+  - Plasma
+
+- type: gameMap
+  id: SophantPiva
+  mapName: 'SophantPiva'
+  mapPath: /Maps/_WD/Shuttles/Sophants/piva.yml
+  minPlayers: 0
+  stations:
+    SophantPiva:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Piva SP{1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'

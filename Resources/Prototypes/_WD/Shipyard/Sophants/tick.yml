@@ -1,0 +1,30 @@
+- type: vessel
+  id: SophantTick
+  parent: BaseVessel
+  name: Tick
+  description: Are you sure this is a good idea?
+  purchasable: false # voucher only
+  price: 64000
+  category: Small
+  group: Commoner
+  shuttlePath: /Maps/_WD/Shuttles/Sophants/tick.yml
+  guidebookPage: Null
+  class:
+  - Patrol
+  engine:
+  - APU
+
+- type: gameMap
+  id: SophantTick
+  mapName: 'SophantTick'
+  mapPath: /Maps/_WD/Shuttles/Sophants/tick.yml
+  minPlayers: 0
+  stations:
+    SophantTick:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Tick SP{1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'

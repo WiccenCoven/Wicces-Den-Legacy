@@ -49,6 +49,15 @@
     consoleType: Commoner
     vessels: # Unless it's special, put the whole roster in!
     - Scarab
-    - Liquidator
+    - SophantAkula
+    - SophantSvinya
+    - SophantTayfun
+    - SophantNatisk
+    - SophantSirius
+    - SophantTick
+    - SophantPiva
+    - SophantSellsword
+    - SophantMudskipper
+    - SophantTwilight
   - type: StaticPrice
     vendPrice: 500000

@@ -1,0 +1,30 @@
+- type: vessel
+  id: SophantSirius
+  parent: BaseVessel
+  name: Sirius
+  description: A barely functioning exploration vessel, it's sensor suite and components have fallen victim to solar radiation.
+  purchasable: false # voucher only
+  price: 64000
+  category: Medium
+  group: Commoner
+  shuttlePath: /Maps/_WD/Shuttles/Sophants/sirius.yml
+  guidebookPage: Null
+  class:
+  - Patrol
+  engine:
+  - AME
+
+- type: gameMap
+  id: SophantSirius
+  mapName: 'SophantSirius'
+  mapPath: /Maps/_WD/Shuttles/Sophants/sirius.yml
+  minPlayers: 0
+  stations:
+    SophantSirius:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Sirius SP{1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'

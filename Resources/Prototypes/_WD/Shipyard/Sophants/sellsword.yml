@@ -1,0 +1,30 @@
+- type: vessel
+  id: SophantSellsword
+  parent: BaseVessel
+  name: Sellsword
+  description: A curiously shaped fighter hull with a combat life expectancy of 30 seconds.
+  purchasable: false # voucher only
+  price: 64000
+  category: Small
+  group: Commoner
+  shuttlePath: /Maps/_WD/Shuttles/Sophants/sellsword.yml
+  guidebookPage: Null
+  class:
+  - Patrol
+  engine:
+  - Plasma
+
+- type: gameMap
+  id: SophantSellsword
+  mapName: 'SophantSellsword'
+  mapPath: /Maps/_WD/Shuttles/Sophants/sellsword.yml
+  minPlayers: 0
+  stations:
+    SophantSellsword:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Sellsword SP{1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
