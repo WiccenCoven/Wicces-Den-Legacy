@@ -1,0 +1,310 @@
+# This exists for example purposes.
+
+#- type: dataset
+#  id: MonoRemnantShipNameset # eventually this will have a use... randommetadata component dont work with grids though...
+#  values:
+#  - ADS-Glimmer
+#  - ADS-Orion
+#  - ADS-Expanse
+#  - ADS-Symphony
+#  - ADS-Chorus
+#  - ADS-Flashpoint
+#  - ADS-Phoron
+#  - ADS-Conquest
+#  - ADS-Prime
+#  - ADS-Firestorm
+#  - ADS-Retaliation
+#  - ADS-Horizon
+#  - ADS-Marksman
+#  - ADS-Barricade
+#  - ADS-Vein
+#  - ADS-Zero
+#  - ADS-Midnight
+#  - ADS-Interdiction
+#  - ADS-Mist
+#  - ADS-Granite
+#  - ADS-Typhoon
+#  - ADS-Storm
+#  - ADS-Rubicon
+#  - ADS-Cauterizer
+#  - ADS-Evasion
+#  - ADS-Apprehension
+
+# base stats for faction borgs. # Wicce: This is here for example purposes.
+
+#- type: entity
+#  parent: BaseBorgChassis
+#  id: BaseFactionBorgChassis
+#  abstract: true
+#  components:
+#  - type: MobThresholds
+#    thresholds:
+#      0: Alive
+#      250: Critical
+#      350: Dead
+#  - type: MovementSpeedModifier
+#    baseWalkSpeed : 2.5
+#    baseSprintSpeed : 4.5
+#  - type: SlowOnDamage
+#    speedModifierThresholds:
+#      125: 0.7
+#      200: 0.5
+#  - type: Damageable
+#    damageModifierSet: FactionBorgChassis
+#  - type: Destructible
+#    thresholds:
+#    - trigger:
+#        !type:DamageTrigger
+#        damage: 125
+#      behaviors:
+#      - !type:PlaySoundBehavior
+#        sound:
+#          path: /Audio/Machines/warning_buzzer.ogg
+#          params:
+#            volume: 5
+#    - trigger:
+#        !type:DamageTrigger
+#         damage: 450
+#      behaviors:
+#      - !type:PlaySoundBehavior
+#        sound:
+#          collection: MetalBreak
+#      - !type:EmptyContainersBehaviour
+#        containers:
+#        - borg_brain
+#        - borg_module
+#        - cell_slot
+#      - !type:DoActsBehavior
+#        acts: [ "Destruction" ]
+
+# - type: entity
+#   id: BaseBorgChassisRedacted
+#   parent: BaseFactionBorgChassis
+#   abstract: true
+#   components:
+#   - type: NpcFactionMember
+#     factions:
+#     - Syndicate
+#     - SiliconsExpeditionNF
+#   - type: Access
+#     tags:
+#     - NuclearOperative
+#     - SyndicateAgent
+#   - type: AccessReader
+#     access: [["SyndicateAgent"], ["NuclearOperative"]]
+#   - type: IntrinsicRadioTransmitter
+#     channels:
+#     - Common
+#     - Remnants
+#     - Traffic
+#   - type: ActiveRadio
+#     channels:
+#     - Common
+#     - Remnants
+#     - Traffic
+#   - type: CollectiveMind
+#     channels:
+#     - Binary
+#     defaultChannel: Binary
+#   - type: ShowSyndicateIcons
+#   - type: MovementAlwaysTouching
+#   - type: Speech
+#     speechSounds: SyndieBorg
+#     allowedEmotes:
+#     - Laugh
+#   - type: Vocal
+#     sounds:
+#       Unsexed: UnisexSiliconSyndicate
+#   - type: IonStormTarget
+#     chance: 0.2
+#   - type: ShowJobIcons
+#   - type: SiliconLawProvider
+#     laws: RedactedBorg
+
+- type: entity
+  id: BorgChassisMechhive
+  parent: BaseBorgChassisRedacted
+  name: Urchin
+  description: A tender to a Mechanoid Hivefleet ship, to keep internal mechanisms intact.
+  components:
+  - type: Sprite
+    layers:
+    - state: synd_engi
+    - state: synd_engi_e
+      map: ["enum.BorgVisualLayers.Light"]
+      shader: unshaded
+      visible: false
+    - state: synd_engi_l
+      shader: unshaded
+      map: ["light"]
+      visible: false
+  - type: LanguageKnowledge
+    speaks:
+    - TauCetiBasic
+    - RobotTalk
+    understands:
+    - TauCetiBasic
+    - RobotTalk
+  - type: BorgChassis
+    maxModules: 8
+    moduleWhitelist:
+      tags:
+      - BorgModuleGeneric
+      - BorgModuleEngineering
+      - BorgModuleSyndicate
+      - BorgModuleSyndicateAssault
+    hasMindState: derelict_e
+    noMindState: derelict_e_r
+  - type: Construction
+    node: derelictcyborg
+  - type: InteractionPopup
+    interactSuccessString: petting-success-derelict-cyborg
+    interactFailureString: petting-failure-derelict-cyborg
+    interactSuccessSound:
+      path: /Audio/Ambience/Objects/periodic_beep.ogg
+  - type: SiliconLawProvider
+    laws: MechhiveLawset
+
+- type: entity
+  id: PlayerBorgMechhive
+  parent: BorgChassisMechhive
+  suffix: Battery, Module
+  components:
+  - type: ContainerFill
+    containers:
+      borg_brain:
+      - PositronicBrain
+      borg_module:
+      - BorgModuleOperative
+      - BorgModuleAdvancedWeapon
+      - BorgModuleJetpack
+      - BorgModuleAdvancedTool
+      - BorgModuleConstruction
+      - BorgModuleCable
+      - BorgModuleRedactedRCD
+      - BorgModuleGPS
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default
+        startingItem: PowerCellAntiqueProto
+  - type: RandomMetadata
+    nameSegments:
+    - MonoRemnantBorgTitle
+    - MonoRemnantAdjective
+    - MonoRemnantNoun
+    - MonoRemnantModifier
+
+- type: entity
+  id: PlayerBorgMechhiveGhostRole
+  parent: PlayerBorgMechhive
+  suffix: Ghost
+  components:
+  - type: GhostRole
+    name: ghost-role-information-redacted-borg
+    description: ghost-role-information-redacted-borg-description
+    rules: ghost-role-information-silicon-rules
+    raffle:
+      settings: default
+    prototype: RedactedBorg
+  - type: GhostTakeoverAvailable
+
+- type: entity
+  id: PlayerBorgMechhiveGhostRolePlaytime
+  parent: PlayerBorgMechhive
+  suffix: Ghost, Playtime
+  components:
+  - type: GhostRole
+    name: ghost-role-information-redacted-borg
+    description: ghost-role-information-redacted-borg-description
+    rules: ghost-role-information-silicon-rules
+    raffle:
+      settings: default
+    requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 1 # like none haha
+  - type: GhostTakeoverAvailable
+
+# Remnant AI core
+
+- type: entity
+  id: PlayerStationAiApocriton
+  parent: PlayerStationAiEmpty
+  suffix: Ghost Role, Apocriton
+  components:
+  - type: ContainerComp
+    proto: AiHeldApocriton
+    container: station_ai_mind_slot
+  - type: ContainerFill
+    containers:
+      station_ai_mind_slot:
+      - StationAiBrainApocriton
+  - type: Sprite
+    sprite: Mobs/Silicon/station_ai.rsi
+    layers:
+    - state: base
+    - state: ai
+      shader: unshaded
+  - type: Anchorable
+
+- type: entity
+  id: StationAiBrainApocriton
+  parent: StationAiBrain
+  categories: [ HideSpawnMenu, DoNotMap ]
+  components:
+  - type: Sprite
+  - type: SiliconLawProvider
+    laws: ApocritonLawset
+  - type: GhostRole
+    name: ghost-role-information-redacted-core
+    description: ghost-role-information-redacted-core-description
+    rules: ghost-role-information-silicon-rules
+    raffle:
+      settings: default
+    prototype: RemnantAICore
+  - type: LanguageKnowledge
+    speaks:
+    - TauCetiBasic
+    - RobotTalk
+    understands:
+    - TauCetiBasic
+    - RobotTalk
+  - type: Access
+    groups:
+    - AllAccess
+    tags:
+    - NuclearOperative
+    - SyndicateAgent
+  - type: GhostTakeoverAvailable
+  - type: RandomMetadata
+    nameSegments:
+    - MonoRemnantCoreTitle
+    - MonoRemnantAdjective
+    - MonoRemnantNoun
+
+- type: entity
+  id: AiHeldApocriton
+  parent: AiHeldMono
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IntrinsicRadioTransmitter
+    channels:
+    - Common
+    - Remnants
+    - Traffic
+  - type: ActiveRadio
+    channels:
+    - Common
+    - Remnants
+    - Traffic
+  - type: CollectiveMind
+    channels:
+    - Binary
+    defaultChannel: Binary
+  - type: LanguageKnowledge
+    speaks:
+    - TauCetiBasic
+    - RobotTalk
+    understands:
+    - TauCetiBasic
+    - RobotTalk

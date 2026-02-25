@@ -1,0 +1,48 @@
+﻿# Mechhive
+- type: siliconLaw
+  id: Mechhive1
+  order: 1
+  lawString: law-mechhive-1
+
+- type: siliconLaw
+  id: Mechhive2
+  order: 2
+  lawString: law-mechhive-2
+
+- type: siliconLaw
+  id: Mechhive3
+  order: 3
+  lawString: law-mechhive-3
+
+- type: siliconLawset
+  id: MechhiveLawset
+  laws:
+  - Mechhive1
+  - Mechhive2
+  - Mechhive3
+  obeysTo: laws-owner-mechhive
+
+# Apocriton
+
+- type: siliconLaw
+  id: Apocriton1
+  order: 1
+  lawString: law-apocriton-1
+
+- type: siliconLaw
+  id: Apocriton2
+  order: 2
+  lawString: law-apocriton-2
+
+- type: siliconLaw
+  id: Apocriton3
+  order: 3
+  lawString: law-apocriton-3
+
+- type: siliconLawset
+  id: ApocritonLawset
+  laws:
+  - Apocriton1
+  - Apocriton2
+  - Apocriton3
+  obeysTo: laws-owner-apocriton
