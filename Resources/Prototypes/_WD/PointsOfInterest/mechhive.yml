@@ -1,0 +1,40 @@
+# Author Info
+# GitHub: UnicornOnLSD
+# Discord: UnicornOnLSD
+
+# Notes: UnicornOnLSD has no relation to Wicce's Den in any way, nor does Wicce's Den make any claims to the content of this file nor the map file.
+
+- type: pointOfInterest
+  id: MechHiveOutpost
+  parent: BasePOI
+  name: "Mechanoid Hive Outpost"
+  minimumDistance: 13500
+  maximumDistance: 16500
+  spawnGroup: Required
+  gridPath: /Maps/_WD/POI/mechhive.yml
+  addComponents:
+  - type: SolarPoweredGrid
+    trackOnInit: true
+    doNotCull: true
+
+- type: gameMap
+  id: MechHiveOutpost
+  mapName: "Mechanoid Hive Outpost"
+  mapPath: /Maps/_WD/POI/mechhive.yml
+  minPlayers: 0
+  stations:
+    DragonsBreathRefinery:
+      stationProto: MarketFrontierOutpost
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Mechanoid Hive Outpost'
+        - type: ExtraStationInformation
+          iconPath: /Textures/_Mono/Objects/Misc/lpc.rsi/mtech.png
+          stationSubtext: 'mechhive-subtext'
+          stationDescription: 'mechhive-description'
+          lobbySortOrder: 6
+#        - type: StationJobs
+#          availableJobs:
+#            DIEmployee: [-1, -1]
+#          tags:
+#          - DI
