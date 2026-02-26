@@ -248,63 +248,6 @@
   chunkComponents:
   - type: SimpleDebrisSelector
     debrisTable:
-    # Medium (1.44)
-    - id: NFAsteroidDebrisMedium
-      prob: 0.24
-      orGroup: debris
-    - id: NFAsteroidAndesiteDebrisMedium
-      prob: 0.24
-      orGroup: debris
-    - id: NFAsteroidBasaltDebrisMedium
-      prob: 0.24
-      orGroup: debris
-    - id: NFAsteroidSandDebrisMedium
-      prob: 0.24
-      orGroup: debris
-    - id: NFAsteroidChromiteDebrisMedium
-      prob: 0.24
-      orGroup: debris
-    - id: NFAsteroidRockDebrisMedium
-      prob: 0.24
-      orGroup: debris
-    # Large (1.44)
-    - id: NFAsteroidDebrisLarge
-      prob: 0.24
-      orGroup: debris
-    - id: NFAsteroidAndesiteDebrisLarge
-      prob: 0.24
-      orGroup: debris
-    - id: NFAsteroidBasaltDebrisLarge
-      prob: 0.24
-      orGroup: debris
-    - id: NFAsteroidSandDebrisLarge
-      prob: 0.24
-      orGroup: debris
-    - id: NFAsteroidChromiteDebrisLarge
-      prob: 0.24
-      orGroup: debris
-    - id: NFAsteroidRockDebrisLarge
-      prob: 0.24
-      orGroup: debris
-    # Extra Large (1.44)
-    - id: NFAsteroidDebrisExtraLarge
-      prob: 0.24
-      orGroup: debris
-    - id: NFAsteroidAndesiteDebrisExtraLarge
-      prob: 0.24
-      orGroup: debris
-    - id: NFAsteroidBasaltDebrisExtraLarge
-      prob: 0.24
-      orGroup: debris
-    - id: NFAsteroidSandDebrisExtraLarge
-      prob: 0.24
-      orGroup: debris
-    - id: NFAsteroidChromiteDebrisExtraLarge
-      prob: 0.24
-      orGroup: debris
-    - id: NFAsteroidRockDebrisExtraLarge
-      prob: 0.24
-      orGroup: debris
     # Huge (.36)
     - id: NFAsteroidDebrisHuge
       prob: 0.06
@@ -347,21 +290,15 @@
   - type: NoiseDrivenDebrisSelector
     noiseChannel: Wreck
     debrisTable:
-    - id: NFWreckDebrisSmall
-      prob: 1
-      orGroup: wreck
-    - id: NFWreckDebrisMedium
-      prob: 2
-      orGroup: wreck
-    - id: NFWreckDebrisLarge
-      prob: 1
+    - id: NFWreckDebrisEnormous
+      prob: 2 # salvage wizard money gang
       orGroup: wreck
     - id: NFWreckDebrisBrassLarge
-      prob: 0.3
+      prob: 0.5 # brass wrecks are cool now
       orGroup: wreck
     - id: NFWreckDebrisBrassExtraLarge
       prob: 0.1
       orGroup: wreck
     - id: MonoDroneSpawnerT1 # Mono
-      prob: 0.15
+      prob: 0.2
       orGroup: wreck

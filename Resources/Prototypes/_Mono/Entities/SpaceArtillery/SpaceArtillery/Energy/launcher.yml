@@ -377,7 +377,7 @@
 - type: entity
   id: WeaponTurretScylla
   name: TPC Scylla plasma impulse driver
-  parent: BallisticArtilleryUnanchorable
+  parent: BallisticArtillery # Wiccies
   suffix: TSF ONLY
   description: A more specialized energy weapon, the Scylla fires a massive burst of plasma projectiles down range, in a huge spew to erase large and small targets alike.
   components:
@@ -462,7 +462,7 @@
 - type: entity
   id: WeaponTurretDymere
   name: ADEX-9 DYMERE Turbolaser
-  parent: BallisticArtilleryUnanchorable
+  parent: BallisticArtillery # Wiccies
   suffix: TSF ONLY, ADS ONLY
   description: Aetherion Dynamics' most iconic supercapital battery. Fires enormous ionized gas projectiles that melt through the toughest ship armor. Can be remotely activated or linked to a GCS.
   components:
@@ -684,7 +684,7 @@
 
 - type: entity
   id: WeaponLaserTurretApollo
-  parent: BallisticArtilleryUnanchorable
+  parent: BallisticArtillery # Wiccies
   name: L-20 Apollo Mining Laser Cannon
   description: One of the Pantheon Collective's top weapons, the Apollo is aptly named for its beams heating surfaces to beyond the temperature of nearby stars.
   components:
@@ -765,7 +765,7 @@
 - type: entity
   id: WeaponTurretType241
   name: Curio-8640 plasma lance "Malice"
-  parent: BallisticArtilleryUnanchorable
+  parent: BallisticArtillery # Wiccies - Lol, Lmao even
   suffix: ADS ONLY
   description: A devastating weapon, known for glassing whole fleets when used en masse
   components:
@@ -860,7 +860,7 @@
 - type: entity
   id: WeaponTurretReaper
   name: Curio-1089 tachyon lance "Reaper"
-  parent: BallisticArtilleryUnanchorable
+  parent: BallisticArtillery # Wiccies
   suffix: ADS ONLY
   description: A terrifying weapon to have aimed at you, the Reaper is an ancient piece of pre-fracture tech capable of shattering the strongest of hulls within one or two blasts.
   components:
@@ -949,7 +949,7 @@
 - type: entity
   id: WeaponTurretHarbringer
   name: Curio-129 ion cannon "Harbringer"
-  parent: BallisticArtilleryUnanchorable
+  parent: BallisticArtillery # Wiccies
   suffix: ADS ONLY
   description: One of the most powerful EMP weapons in sector, it is a sign of doom for its targets.
   components:
@@ -1039,7 +1039,7 @@
 - type: entity
   id: WeaponTurretTartarus
   name: Curio-1810 antimatter particle cannon "Tartarus"
-  parent: BallisticArtilleryUnanchorable
+  parent: BallisticArtillery # Wiccies
   suffix: ADS ONLY
   description: A rarer, powerful cannon mounted on larger ADS units. Firing a singular particle of antimatter wrapped in energy. Annihalating sections of shuttles at a time.
   components:
