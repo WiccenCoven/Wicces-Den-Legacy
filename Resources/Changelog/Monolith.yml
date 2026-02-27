@@ -17498,3 +17498,13 @@ Entries:
   id: 1931
   time: '2026-02-27T03:30:54.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3268
+- author: Helicaste
+  changes:
+    - type: Tweak
+      message: >-
+        Fighters, an emission is approaching. Approximate time till emission, 10
+        minutes. Get to cryosleep. (round end shuttle call message has been
+        replaced).
+  id: 1932
+  time: '2026-02-27T17:10:39.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3257
