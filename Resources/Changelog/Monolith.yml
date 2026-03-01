@@ -17627,3 +17627,14 @@ Entries:
   id: 1942
   time: '2026-03-01T23:32:41.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3301
+- author: burrrkeye
+  changes:
+    - type: Add
+      message: >-
+        PDV BT-Y Fenrir Class Light Carrier Destroyer is entering the PDV Fleet
+        replacing the Anaconda.
+    - type: Remove
+      message: Yeah Anaconda is dead i killed it lol
+  id: 1943
+  time: '2026-03-01T23:34:38.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3298
