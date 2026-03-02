@@ -35,16 +35,3 @@
   supervisors: job-supervisors-hire # Frontier
   jobEntity: PlayerBorgBattery
   applyTraits: false
-
-#WICCE ADD: Borg ID gear
-- type: startingGear
-  id: BorgGear
-  equipment:
-    id: ContractorPDA
-
-- type: chameleonOutfit
-  id: BorgChameleonOutfit
-  job: Borg
-  equipment:
-    id: ContractorPDA
-#END WICCE
