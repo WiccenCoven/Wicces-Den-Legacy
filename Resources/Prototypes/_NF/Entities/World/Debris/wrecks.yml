@@ -113,7 +113,7 @@
   - type: SimpleFloorPlanPopulator
     entries:
       FloorBrassFilled: &floorBrass
-        - prob: 4 # Intentional blank. 
+        - prob: 4 # Intentional blank.
         # Walls
         - id: ClockworkGirder
           prob: 0.3
@@ -149,10 +149,6 @@
           prob: 0.02
         - id: WeaponMechChainSword
           prob: 0.04
-        - id: AK570Flatpack
-          prob: 0.015
-        - id: Type35Flatpack
-          prob: 0.015
         - id: FTLDrive50Flatpack
           prob: 0.01
         - id: GeneratorRTG
@@ -161,8 +157,8 @@
           prob: 0.04
         - id: SpawnDungeonLootVaultGuns
           prob: 0.07
-        - id: M381Flatpack
-          prob: 0.00005 # trol
+        - id: ShipgunLoot
+          prob: 0.1
         ## Mono end
         # "Medical"
         - id: RipleyChassis # Build it yourself

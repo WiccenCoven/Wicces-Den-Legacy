@@ -26,3 +26,55 @@
   - type: CountSpawner
     prototype: SheetPlastitanium1
     maximumCount: 3
+
+- type: entity
+  parent: MarkerBase
+  id: ShipgunLoot
+  name: ShipgunLootSpawner
+  components:
+  - type: EntityTableSpawner
+    offset: 0.0
+    table: !type:NestedSelector
+      tableId: ShipgunLootTable
+      prob: 1.0
+
+- type: entityTable
+  id: ShipgunLootTable
+  table: !type:GroupSelector
+    children:
+    - !type:GroupSelector
+      weight: 5
+      children:
+      - !type:GroupSelector
+        weight: 1.745
+        children:
+        - id: WeaponTurretRAC30Flatpack
+        - id: WeaponTurretDravonFlatpack
+        - id: WeaponTurretLongbowFlatpack
+        - id: WeaponTurretAdderScattercannonFlatpack
+        - id: WeaponTurretFangFlatpack
+        - id: WeaponTurretHydraFlatpack
+        - id: WeaponTurretTarnyxFlatpack
+        - id: WeaponTurretCerberusFlatpack
+        - id: WeaponTurretType54Flatpack
+        - id: WeaponTurretM220Flatpack
+        - id: AK570Flatpack
+        - id: Type35Flatpack
+        - id: WeaponLaserTurretL1PhalanxFlatpack
+        - id: WeaponLaserTurretPrometheusFlatpack
+        - id: WeaponLaserTurretApolloFlatpack
+        - id: WeaponTurretSerpentMissileFlatpack
+        - id: WeaponTurretLightMunitionsBayFlatpack
+        - id: WeaponTurretTovekFlatpack
+        - id: WeaponTurretASM220Flatpack
+        - id: WeaponTurretVanykFlatpack
+        - id: WeaponTurretVesperaFlatpack
+      - !type:GroupSelector
+        weight: 0.05
+        children:
+        - id: WeaponTurretScyllaFlatpack
+        - id: WeaponTurretDymereFlatpack
+        - id: M381Flatpack
+        - id: WeaponTurretCyrexaFlatpack
+        - id: WeaponTurretBoforsFlatpack
+        - id: WeaponTurretHadesFlatpack

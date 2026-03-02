@@ -8,6 +8,16 @@
     strippingWindowPos: 0,0
     displayName: Head
     offset: 0.015625, -0.09375
+  #WICCE ADD: Borg id slots
+  - name: id
+    slotTexture: id
+    slotFlags: IDCARD
+    slotGroup: SecondHotbar
+    stripTime: 6
+    uiWindowPos: 2,1
+    strippingWindowPos: 2,4
+    displayName: ID
+#END WICCE
 
 - type: inventoryTemplate
   id: borgShort
@@ -19,6 +29,16 @@
     strippingWindowPos: 0,0
     displayName: Head
     offset: 0.015625, -0.1875
+  #WICCE ADD: Borg id slots
+  - name: id
+    slotTexture: id
+    slotFlags: IDCARD
+    slotGroup: SecondHotbar
+    stripTime: 6
+    uiWindowPos: 2,1
+    strippingWindowPos: 2,4
+    displayName: ID
+#END WICCE
 
 - type: inventoryTemplate
   id: borgTall
@@ -30,6 +50,16 @@
     strippingWindowPos: 0,0
     displayName: Head
     offset: 0.015625, 0
+  #WICCE ADD: Borg id slots
+  - name: id
+    slotTexture: id
+    slotFlags: IDCARD
+    slotGroup: SecondHotbar
+    stripTime: 6
+    uiWindowPos: 2,1
+    strippingWindowPos: 2,4
+    displayName: ID
+#END WICCE
 
 # taller than tall
 - type: inventoryTemplate
@@ -42,3 +72,13 @@
     strippingWindowPos: 0,0
     displayName: Head
     offset: 0, 0.09375
+  #WICCE ADD: Borg id slots
+  - name: id
+    slotTexture: id
+    slotFlags: IDCARD
+    slotGroup: SecondHotbar
+    stripTime: 6
+    uiWindowPos: 2,1
+    strippingWindowPos: 2,4
+    displayName: ID
+#END WICCE

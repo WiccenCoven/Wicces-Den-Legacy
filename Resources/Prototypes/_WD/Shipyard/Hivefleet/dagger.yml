@@ -1,0 +1,30 @@
+- type: vessel
+  id: HivefleetDagger
+  parent: BaseVessel
+  name: Dagger
+  description: A hivefleet fighter designed to destroy critical infrastructure at long range.
+  purchasable: false # voucher only
+  price: 64000
+  category: Small
+  group: Hive
+  shuttlePath: /Maps/_WD/Shuttles/Hivefleet/dagger.yml
+  guidebookPage: Null
+  class:
+  - Patrol
+  engine:
+  - Uranium
+
+- type: gameMap
+  id: HivefleetDagger
+  mapName: 'HivefleetDagger'
+  mapPath: /Maps/_WD/Shuttles/Hivefleet/dagger.yml
+  minPlayers: 0
+  stations:
+    HivefleetDagger:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Dagger HV{1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'

@@ -1,0 +1,30 @@
+- type: vessel
+  id: HivefleetOcelot
+  parent: BaseVessel
+  name: Ocelot
+  description: An agile hivefleet fighter armed with autopulers and two torpedo bays.
+  purchasable: false # voucher only
+  price: 64000
+  category: Small
+  group: Hive
+  shuttlePath: /Maps/_WD/Shuttles/Hivefleet/ocelot.yml
+  guidebookPage: Null
+  class:
+  - Patrol
+  engine:
+  - Uranium
+
+- type: gameMap
+  id: HivefleetOcelot
+  mapName: 'HivefleetOcelot'
+  mapPath: /Maps/_WD/Shuttles/Hivefleet/ocelot.yml
+  minPlayers: 0
+  stations:
+    HivefleetOcelot:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Ocelot HV{1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'

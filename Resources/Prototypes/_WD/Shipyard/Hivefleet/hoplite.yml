@@ -1,0 +1,30 @@
+- type: vessel
+  id: HivefleetHoplite
+  parent: BaseVessel
+  name: Hoplite
+  description: A hivefleet heavy fighter armed with a menacing array of plasma weaponry.
+  purchasable: false # voucher only
+  price: 64000
+  category: Small
+  group: Hive
+  shuttlePath: /Maps/_WD/Shuttles/Hivefleet/hoplite.yml
+  guidebookPage: Null
+  class:
+  - Patrol
+  engine:
+  - Uranium
+
+- type: gameMap
+  id: HivefleetHoplite
+  mapName: 'HivefleetHoplite'
+  mapPath: /Maps/_WD/Shuttles/Hivefleet/hoplite.yml
+  minPlayers: 0
+  stations:
+    HivefleetHoplite:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Hoplite HV{1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'

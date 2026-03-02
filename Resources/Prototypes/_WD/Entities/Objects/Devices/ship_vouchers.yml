@@ -72,3 +72,61 @@
     vessels: # Just starting vessels, please.
     - Scarab
     - SophantPiva
+
+
+- type: entity
+  parent: BaseShipLPC
+  id: BaseShipLPCHive
+  name: Mechhive LPC
+  description: A small card that contains the data and materials for the flashforge of a Mechhive ship.
+  components:
+  - type: Sprite
+    layers:
+    - state: htech
+    - state: stripeussp
+    - state: vouchermilitary
+  - type: ShipyardVoucher
+    redemptionsLeft: 9999 # Effectively infinite.
+    destroyOnEmpty: false
+    consoleType: Hive
+    access:
+    - SyndicateAgent
+    - NuclearOperative
+  - type: StaticPrice
+    vendPrice: 500000
+
+- type: entity
+  parent: BaseShipLPCHive
+  id: ShipVoucherDagger
+  name: Mechhive Dagger LPC
+  components:
+  - type: ShipyardVoucher
+    vessels:
+    - HivefleetDagger
+
+- type: entity
+  parent: BaseShipLPCHive
+  id: ShipVoucherOcelot
+  name: Mechhive Ocelot LPC
+  components:
+  - type: ShipyardVoucher
+    vessels:
+    - HivefleetOcelot
+
+- type: entity
+  parent: BaseShipLPCHive
+  id: ShipVoucherFracture
+  name: Mechhive Fracture LPC
+  components:
+  - type: ShipyardVoucher
+    vessels:
+    - HivefleetFracture
+
+- type: entity
+  parent: BaseShipLPCHive
+  id: ShipVoucherHoplite
+  name: Mechhive Hoplite LPC
+  components:
+  - type: ShipyardVoucher
+    vessels:
+    - HivefleetHoplite

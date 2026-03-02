@@ -79,3 +79,31 @@
   - type: ShipyardConsole
     shipyardChannel: Command
     secretShipyardChannel: Security
+
+- type: entity
+  id: ComputerShipyardMechhive
+  parent: [BaseStructureDisableToolUse, BaseStructureIndestructible, ComputerShipyardBase]
+  name: Mechhive shipyard console
+  description: Used to procure ships from the Hive.
+  components:
+  - type: ActivatableUI
+    key: enum.ShipyardConsoleUiKey.Hive
+  - type: UserInterface
+    interfaces:
+      enum.ShipyardConsoleUiKey.Hive:
+        type: ShipyardConsoleBoundUserInterface
+  - type: Sprite
+    sprite: _NF/Structures/Machines/computers.rsi
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer_blackmarket
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: shipyard_blackmarket
+    - map: ["computerLayerKeys"]
+      state: blackmarket_key
+  - type: ShipyardConsole
+    shipyardChannel: Traffic
+    ignoreBaseSaleRate: true # Fixed 70% sale rate.
+    canTransferDeed: false

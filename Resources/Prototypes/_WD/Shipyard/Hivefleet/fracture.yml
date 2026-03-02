@@ -1,0 +1,30 @@
+- type: vessel
+  id: HivefleetFracture
+  parent: BaseVessel
+  name: Fracture
+  description: A hivefleet brawler armed with heavy kinetic cannons.
+  purchasable: false # voucher only
+  price: 64000
+  category: Small
+  group: Hive
+  shuttlePath: /Maps/_WD/Shuttles/Hivefleet/fracture.yml
+  guidebookPage: Null
+  class:
+  - Patrol
+  engine:
+  - Uranium
+
+- type: gameMap
+  id: HivefleetFracture
+  mapName: 'HivefleetFracture'
+  mapPath: /Maps/_WD/Shuttles/Hivefleet/fracture.yml
+  minPlayers: 0
+  stations:
+    HivefleetFracture:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Fracture HV{1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'

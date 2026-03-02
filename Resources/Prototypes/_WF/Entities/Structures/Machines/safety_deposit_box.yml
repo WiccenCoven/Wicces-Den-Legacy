@@ -131,8 +131,12 @@
   - type: ContainerContainer
     containers:
       safety-deposit-console-boxSlot: !type:ContainerSlot
+      machine_board: !type:Container
+      machine_parts: !type:Container
   - type: ActivatableUI
     key: enum.SafetyDepositConsoleUiKey.Key
+  - type: Machine
+    board: SafetyDepositConsoleCircuitboard
 
   - type: UserInterface
     interfaces:
