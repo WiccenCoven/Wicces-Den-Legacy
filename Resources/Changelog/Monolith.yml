@@ -17673,3 +17673,10 @@ Entries:
   id: 1948
   time: '2026-03-02T21:41:44.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3333
+- author: Loldaddy5676
+  changes:
+    - type: Tweak
+      message: LPB update
+  id: 1949
+  time: '2026-03-02T23:53:09.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3215
