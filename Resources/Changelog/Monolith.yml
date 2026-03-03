@@ -17689,3 +17689,10 @@ Entries:
   id: 1950
   time: '2026-03-03T04:08:28.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3316
+- author: NazrinNya
+  changes:
+    - type: Remove
+      message: Latest LPB update has been reverted.
+  id: 1951
+  time: '2026-03-03T14:40:41.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3342
