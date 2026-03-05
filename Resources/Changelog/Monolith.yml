@@ -17887,3 +17887,10 @@ Entries:
   id: 1971
   time: '2026-03-05T21:36:19.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3343
+- author: NazrinNya
+  changes:
+    - type: Tweak
+      message: IPC is now barely capable of exchanging heat with other entities.
+  id: 1972
+  time: '2026-03-05T23:56:02.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3370
