@@ -8,7 +8,7 @@
   id: HydrakinEyesDefault
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_parts.rsi
     state: eyes_default
@@ -17,7 +17,7 @@
   id: HydrakinEyesOmega
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_parts.rsi
     state: eyes_omega
@@ -26,7 +26,7 @@
   id: HydrakinEyesQuad
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_parts.rsi
     state: eyes_quad
@@ -35,7 +35,7 @@
   id: HydrakinEyesSaint
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_parts.rsi
     state: eyes_saint
@@ -44,7 +44,7 @@
   id: HydrakinEyesHex
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_parts.rsi
     state: eyes_hex
@@ -53,7 +53,7 @@
   id: HydrakinEyesRing
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_parts.rsi
     state: eyes_ring
@@ -62,7 +62,7 @@
   id: HydrakinEyesSeer
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_parts.rsi
     state: eyes_seer
@@ -73,7 +73,7 @@
   id: HydrakinTailDefault
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_parts.rsi
     state: tail_default
@@ -82,7 +82,7 @@
   id: HydrakinTailNub
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_parts.rsi
     state: tail_nub
@@ -93,7 +93,7 @@
   id: HydrakinTailFeathersUnpainted
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_parts.rsi
     state: tail_feathers
@@ -102,7 +102,7 @@
   id: HydrakinTailFeathers
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_parts.rsi
     state: tail_feathers
@@ -113,7 +113,7 @@
   id: HydrakinTailSpinyUnpainted
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_parts.rsi
     state: tail_spiny
@@ -122,7 +122,7 @@
   id: HydrakinTailSpiny
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_parts.rsi
     state: tail_spiny
@@ -133,7 +133,7 @@
   id: HydrakinTailFinsUnpainted
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_parts.rsi
     state: tail_fins
@@ -142,7 +142,7 @@
   id: HydrakinTailFins
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_parts.rsi
     state: tail_fins
@@ -153,7 +153,7 @@
   id: HydrakinHydraTailFeathers
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_parts.rsi
     state: tail_feathers_seer
@@ -164,7 +164,7 @@
   id: HydrakinHydraTailFeathersUnpainted
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_parts.rsi
     state: tail_feathers_seer
@@ -175,7 +175,7 @@
   id: HydrakinEarsDefault
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_parts.rsi
     state: ears_default
@@ -184,7 +184,7 @@
   id: HydrakinEarsDefaultPainted
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_parts.rsi
     state: ears_default
@@ -195,7 +195,7 @@
   id: HydrakinEarsOld
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_parts.rsi
     state: ears_thin
@@ -204,7 +204,7 @@
   id: HydrakinEarsOldPainted
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_parts.rsi
     state: ears_thin
@@ -215,7 +215,7 @@
   id: HydrakinEarsFin
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_parts.rsi
     state: ears_fin
@@ -224,7 +224,7 @@
   id: HydrakinEarsFinPainted
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_parts.rsi
     state: ears_fin
@@ -235,7 +235,7 @@
   id: HydrakinEarsFrilled
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_parts.rsi
     state: ears_frilled
@@ -244,7 +244,7 @@
   id: HydrakinEarsFrilledPainted
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_parts.rsi
     state: ears_frilled
@@ -255,7 +255,7 @@
   id: HydrakinHydraSeerEars
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_parts.rsi
     state: ears_seer
@@ -264,7 +264,7 @@
   id: HydrakinHydraSeerEarsPainted
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_parts.rsi
     state: ears_seer
@@ -277,7 +277,7 @@
   id: HydrakinProtoFace1
   bodyPart: Head
   markingCategory: Overlay
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydraproto_parts.rsi
     state: face_1
@@ -286,7 +286,7 @@
   id: HydrakinProtoFace2
   bodyPart: Head
   markingCategory: Overlay
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydraproto_parts.rsi
     state: face_2
@@ -295,7 +295,7 @@
   id: HydrakinProtoFace3
   bodyPart: Head
   markingCategory: Overlay
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydraproto_parts.rsi
     state: face_3
@@ -304,7 +304,7 @@
   id: HydrakinProtoFace4
   bodyPart: Head
   markingCategory: Overlay
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydraproto_parts.rsi
     state: face_4
@@ -313,7 +313,7 @@
   id: HydrakinProtoFace5
   bodyPart: Head
   markingCategory: Overlay
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydraproto_parts.rsi
     state: face_5
@@ -323,7 +323,7 @@
   id: HydrakinProtoVisor
   bodyPart: Head
   markingCategory: Overlay
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydraproto_parts.rsi
     state: visor
@@ -332,7 +332,7 @@
   id: HydrakinProtoChest
   bodyPart: Chest
   markingCategory: Chest
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydraproto_parts.rsi
     state: chest
@@ -341,7 +341,7 @@
   id: HydrakinProtoLeftArm
   bodyPart: LArm
   markingCategory: Arms
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydraproto_parts.rsi
     state: arm_left
@@ -350,7 +350,7 @@
   id: HydrakinProtoRightArm
   bodyPart: RArm
   markingCategory: Arms
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydraproto_parts.rsi
     state: arm_right
@@ -359,7 +359,7 @@
   id: HydrakinProtoLeftLeg
   bodyPart: LLeg
   markingCategory: Legs
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydraproto_parts.rsi
     state: leg_left
@@ -368,7 +368,7 @@
   id: HydrakinProtoRightLeg
   bodyPart: RLeg
   markingCategory: Legs
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydraproto_parts.rsi
     state: leg_right
@@ -379,7 +379,7 @@
   id: HydrakinEnforcerHead
   bodyPart: Head
   markingCategory: HeadSide
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_enforcer.rsi
     state: hydrakin_head_enforcer
@@ -388,7 +388,7 @@
   id: HydrakinEnforcerChest
   bodyPart: Chest
   markingCategory: Chest
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_enforcer.rsi
     state: hydrakin_torso_enforcer
@@ -397,7 +397,7 @@
   id: HydrakinEnforcerLeftArm
   bodyPart: LArm
   markingCategory: Arms
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_enforcer.rsi
     state: hydrakin_arm_enforcer_L
@@ -406,7 +406,7 @@
   id: HydrakinEnforcerRightArm
   bodyPart: RArm
   markingCategory: Arms
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_enforcer.rsi
     state: hydrakin_arm_enforcer_R
@@ -415,7 +415,7 @@
   id: HydrakinEnforcerLeftLeg
   bodyPart: LLeg
   markingCategory: Legs
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_enforcer.rsi
     state: hydrakin_leg_enforcer_L
@@ -424,7 +424,7 @@
   id: HydrakinEnforcerRightLeg
   bodyPart: RLeg
   markingCategory: Legs
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_enforcer.rsi
     state: hydrakin_leg_enforcer_R
@@ -435,7 +435,7 @@
   id: HydrakinHydraFaceMask
   bodyPart: Head
   markingCategory: Overlay
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_hydraseer.rsi
     state: hydra_face_mask
@@ -444,7 +444,7 @@
   id: HydrakinHydraSeerMarking
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_hydraseer.rsi
     state: hydra_seer_marking
@@ -453,7 +453,7 @@
   id: HydrakinHydraMantleMaw
   bodyPart: Head
   markingCategory: Overlay
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_hydraseer.rsi
     state: hydra_mantle_maw
@@ -462,7 +462,7 @@
   id: HydrakinHydraUnderbelly
   bodyPart: Chest
   markingCategory: Chest
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_hydraseer.rsi
     state: hydra_underbelly
@@ -471,7 +471,7 @@
   id: HydrakinHydraLeftArm
   bodyPart: LArm
   markingCategory: Arms
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_hydraseer.rsi
     state: hydra_seer_arm_left
@@ -480,7 +480,7 @@
   id: HydrakinHydraRightArm
   bodyPart: RArm
   markingCategory: Arms
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_hydraseer.rsi
     state: hydra_seer_arm_right
@@ -489,7 +489,7 @@
   id: HydrakinHydraLeftLeg
   bodyPart: LLeg
   markingCategory: Legs
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_hydraseer.rsi
     state: hydra_seer_leg_left
@@ -498,7 +498,7 @@
   id: HydrakinHydraRightLeg
   bodyPart: RLeg
   markingCategory: Legs
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_hydraseer.rsi
     state: hydra_seer_leg_right
@@ -509,7 +509,7 @@
   id: HydrakinMysticHead
   bodyPart: Head
   markingCategory: HeadSide
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_mystic.rsi
     state: hydrakin_head_mystic
@@ -518,7 +518,7 @@
   id: HydrakinMysticChest
   bodyPart: Chest
   markingCategory: Chest
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_mystic.rsi
     state: hydrakin_torso_mystic
@@ -527,7 +527,7 @@
   id: HydrakinMysticLeftArm
   bodyPart: LArm
   markingCategory: Arms
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_mystic.rsi
     state: hydrakin_arm_mystic_L
@@ -536,7 +536,7 @@
   id: HydrakinMysticRightArm
   bodyPart: RArm
   markingCategory: Arms
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_mystic.rsi
     state: hydrakin_arm_mystic_R
@@ -545,7 +545,7 @@
   id: HydrakinMysticLeftLeg
   bodyPart: LLeg
   markingCategory: Legs
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_mystic.rsi
     state: hydrakin_leg_mystic_L
@@ -554,7 +554,7 @@
   id: HydrakinMysticRightLeg
   bodyPart: RLeg
   markingCategory: Legs
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_mystic.rsi
     state: hydrakin_leg_mystic_R
@@ -565,7 +565,7 @@
   id: HydrakinRebelHead
   bodyPart: Head
   markingCategory: HeadSide
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_rebel.rsi
     state: hydrakin_head_rebel
@@ -574,7 +574,7 @@
   id: HydrakinRebelChest
   bodyPart: Chest
   markingCategory: Chest
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_rebel.rsi
     state: hydrakin_torso_rebel
@@ -583,7 +583,7 @@
   id: HydrakinRebelLeftArm
   bodyPart: LArm
   markingCategory: Arms
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_rebel.rsi
     state: hydrakin_arm_rebel_L
@@ -592,7 +592,7 @@
   id: HydrakinRebelRightArm
   bodyPart: RArm
   markingCategory: Arms
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_rebel.rsi
     state: hydrakin_arm_rebel_R
@@ -601,7 +601,7 @@
   id: HydrakinRebelLeftLeg
   bodyPart: LLeg
   markingCategory: Legs
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_rebel.rsi
     state: hydrakin_leg_rebel_L
@@ -610,7 +610,7 @@
   id: HydrakinRebelRightLeg
   bodyPart: RLeg
   markingCategory: Legs
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_rebel.rsi
     state: hydrakin_leg_rebel_R
@@ -621,7 +621,7 @@
   id: HydrakinTribalHead
   bodyPart: Head
   markingCategory: HeadSide
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_tribal.rsi
     state: hydrakin_head_tribal
@@ -630,7 +630,7 @@
   id: HydrakinTribalChest
   bodyPart: Chest
   markingCategory: Chest
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_tribal.rsi
     state: hydrakin_torso_tribal
@@ -639,7 +639,7 @@
   id: HydrakinTribalLeftArm
   bodyPart: LArm
   markingCategory: Arms
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_tribal.rsi
     state: hydrakin_arm_tribal_L
@@ -648,7 +648,7 @@
   id: HydrakinTribalRightArm
   bodyPart: RArm
   markingCategory: Arms
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_tribal.rsi
     state: hydrakin_arm_tribal_R
@@ -657,7 +657,7 @@
   id: HydrakinTribalLeftLeg
   bodyPart: LLeg
   markingCategory: Legs
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_tribal.rsi
     state: hydrakin_leg_tribal_L
@@ -666,7 +666,7 @@
   id: HydrakinTribalRightLeg
   bodyPart: RLeg
   markingCategory: Legs
-  speciesRestriction: [Hydrakin]
+  # speciesRestriction: [Hydrakin]
   sprites:
   - sprite: _Obelisk/Mobs/Customization/hydrakin_tribal.rsi
     state: hydrakin_leg_tribal_R

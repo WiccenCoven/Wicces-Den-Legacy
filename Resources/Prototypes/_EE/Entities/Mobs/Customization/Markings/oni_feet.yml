@@ -2,7 +2,7 @@
   id: OniTwoToedFeet
   bodyPart: RFoot # Can't be LFoot to avoid visual glitches
   markingCategory: Legs
-  speciesRestriction: [Oni]
+  # speciesRestriction: [Oni]
   coloring:
     default:
       type:
