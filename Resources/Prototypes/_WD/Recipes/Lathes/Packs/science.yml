@@ -1,0 +1,6 @@
+﻿- type: latheRecipePack
+  id: SophantLpc
+  recipes:
+  - ShipVoucherCommonerSizeOne
+  - ShipVoucherCommonerSizeTwo
+  - ShipVoucherCommonerSizeThree

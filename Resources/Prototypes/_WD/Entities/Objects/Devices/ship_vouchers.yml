@@ -68,7 +68,7 @@
 - type: entity
   parent: ShipVoucherCommoner
   id: ShipVoucherCommonerSizeOne
-  name: Commoner's Guild LPC
+  name: Commoner's Guild Small LPC
   description: A small card that contains the data and materials for the flashforge of a Guild branded ship from the Arion's Ship-grade Nanoforge.
   components:
   - type: ShipyardVoucher
@@ -81,7 +81,7 @@
 - type: entity
   parent: ShipVoucherCommoner
   id: ShipVoucherCommonerSizeTwo
-  name: Commoner's Guild LPC
+  name: Commoner's Guild Medium LPC
   description: A small card that contains the data and materials for the flashforge of a Guild branded ship from the Arion's Ship-grade Nanoforge.
   components:
   - type: ShipyardVoucher
@@ -96,7 +96,7 @@
 - type: entity
   parent: ShipVoucherCommoner
   id: ShipVoucherCommonerSizeThree
-  name: Commoner's Guild LPC
+  name: Commoner's Guild Large LPC
   description: A small card that contains the data and materials for the flashforge of a Guild branded ship from the Arion's Ship-grade Nanoforge.
   components:
   - type: ShipyardVoucher
