@@ -14775,7 +14775,7 @@ Entries:
     - type: Add
       message: >-
         The DIS Pluto MK. II has pierced it's way on the hull market. A
-        replacement of the honorable Pluto.
+        replacement of the honorable Pluto. 
     - type: Remove
       message: >-
         DIS Pluto hulls are no longer available on the hull market. We will miss
@@ -14885,7 +14885,7 @@ Entries:
     - type: Tweak
       message: >-
         Spasaka sabotage kit has gotten equipment changes to help with boarding
-        as well as receiving the RX-01 suit.
+        as well as receiving the RX-01 suit. 
   id: 1651
   time: '2025-12-13T08:10:05.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2782
@@ -15226,7 +15226,7 @@ Entries:
     - type: Tweak
       message: >-
         Bluespace crates occur more frequently. By extension there will be fewer
-        solar flares.
+        solar flares. 
     - type: Tweak
       message: >-
         Increased the number of smuggling hints sent out to ships. Happy
@@ -15789,7 +15789,7 @@ Entries:
     - type: Add
       message: >-
         A new challanger! BT-Y Hazel enters the PDV Roster as a small-strafer in
-        place of the Vega featuring a 3 barreled 220m Battery!
+        place of the Vega featuring a 3 barreled 220m Battery! 
     - type: Remove
       message: PDV Vega is now gone, o7.
   id: 1752
@@ -15815,7 +15815,7 @@ Entries:
         The Europa is now a beefy capital ship with medical and cloning
         capabilities. She is now restricted to two vessels active at a time, as
         well as costing 240k. These changes come with the benefit of a heavy
-        upgrade. Glory to Phaethon.
+        upgrade. Glory to Phaethon. 
   id: 1754
   time: '2026-01-05T16:53:42.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2929
@@ -16677,7 +16677,7 @@ Entries:
     - type: Tweak
       message: >-
         Advanced chemicals now have 0.15u metabolism rate. Pyrazine healing was
-        buffed to 2.
+        buffed to 2. 
     - type: Tweak
       message: Overseer's heavy maul sprite received changes.
   id: 1847
@@ -16904,7 +16904,7 @@ Entries:
     - type: Tweak
       message: >-
         Horizon Energy has begun sale of modernized versions of the Windreign to
-        the Colossus Sector.
+        the Colossus Sector. 
   id: 1871
   time: '2026-02-01T19:28:28.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3141
@@ -17076,7 +17076,7 @@ Entries:
       message: >-
         the local syndicate outpost has finally invested in some automated
         defenses. woe be the raider who tries to illegally park their ship right
-        in front of the outpost.
+        in front of the outpost. 
   id: 1887
   time: '2026-02-11T01:31:25.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3044
@@ -17824,3 +17824,66 @@ Entries:
   id: 1964
   time: '2026-03-04T17:39:58.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3358
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: handheld Autopulser caustic removed, replaced with heat.
+    - type: Tweak
+      message: Faction borgs now have 40% explo resist as intended instead of 60%
+    - type: Tweak
+      message: ADMs have 65% explo resist instead of 75% now.
+    - type: Tweak
+      message: >-
+        Autopulser ammo reduced to 40 shots from 70, recharge speed buffed
+        slightly.
+  id: 1965
+  time: '2026-03-04T23:44:29.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3361
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: Halcyon given more turrets and turrets are upgraded to heavy balistic.
+  id: 1966
+  time: '2026-03-05T04:56:49.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3309
+- author: tonotom1
+  changes:
+    - type: Fix
+      message: >-
+        Added a crew monitoring server for Colossus, MD, and Helios to prevent a
+        single portstrike or funny at Halcyon from bricking crew monitors
+  id: 1967
+  time: '2026-03-05T17:05:14.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3365
+- author: Redrover1760
+  changes:
+    - type: Fix
+      message: >-
+        Wyvern spawn odds reduced to what it was before, was increased
+        accidentally.
+  id: 1968
+  time: '2026-03-05T19:57:11.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3349
+- author: Mrrpip
+  changes:
+    - type: Tweak
+      message: Allows more shipguns to be rotated trough the right-click UI.
+  id: 1969
+  time: '2026-03-05T19:58:09.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3351
+- author: Mrrpip
+  changes:
+    - type: Tweak
+      message: Adjusts the description on Diagonal Plastitanium Walls.
+  id: 1970
+  time: '2026-03-05T19:59:45.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3357
+- author: Mrrpip
+  changes:
+    - type: Add
+      message: >-
+        Adds the QJ-370, a Vanyk and Rubicon toting fighter to the TSF Tumour's
+        shipyard.
+  id: 1971
+  time: '2026-03-05T21:36:19.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3343
