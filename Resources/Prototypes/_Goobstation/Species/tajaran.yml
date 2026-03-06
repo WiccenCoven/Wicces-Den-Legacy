@@ -22,21 +22,21 @@
       points: 1
       required: false
     Tail:
-      points: 1
-      required: true
-      defaultMarkings: [ TajaranTailRetro ]
+      points: 9
+      required: false # Wicce
+#      defaultMarkings: [ TajaranTailRetro ] # Wicce
     HeadTop:
-      points: 1
-      required: true
-      defaultMarkings: [ TajaranEarsBasic ]
+      points: 9
+      required: false # Wicce
+#      defaultMarkings: [ TajaranEarsBasic ] # Wicce
     Chest:
-      points: 1
+      points: 9 # Wicce
       required: false
     Legs:
-      points: 2
+      points: 9 # Wicce
       required: false
     Arms:
-      points: 2
+      points: 9 # Wicce
       required: false
 
 - type: speciesBaseSprites

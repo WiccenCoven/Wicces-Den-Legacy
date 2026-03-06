@@ -2,7 +2,7 @@
   id: WingsRobotic
   bodyPart: Wings
   markingCategory: Wings
-  speciesRestriction: [IPC]
+#  speciesRestriction: [IPC]
   sprites:
     - sprite: _SimpleStation/Mobs/Customization/wings96x34.rsi
       state: robotic

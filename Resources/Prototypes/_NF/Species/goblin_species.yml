@@ -43,21 +43,21 @@
       points: 1
       required: false
     HeadTop:
-      points: 1
-      required: true
-      defaultMarkings: [ GoblinEarsBasic ]
+      points: 9
+      required: false # Wicce
+#      defaultMarkings: [ GoblinEarsBasic ] # Wicce
     Snout:
-      points: 2
+      points: 9
       required: false
 #      defaultMarkings: [ GoblinNoseBasic ]
     Chest:
-      points: 1
+      points: 9 # Wicce
       required: false
     Legs:
-      points: 2
+      points: 9 # Wicce
       required: false
     Arms:
-      points: 2
+      points: 9 # Wicce
       required: false
 
 - type: humanoidBaseSprite

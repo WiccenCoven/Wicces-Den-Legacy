@@ -1,7 +1,7 @@
 - type: species
   id: Felinid
   name: species-name-felinid
-  roundStart: false # Mono
+  roundStart: true # Mono # Wicce
   prototype: MobFelinid
   sprites: MobHumanSprites
   markingLimits: MobFelinidMarkingLimits
@@ -18,19 +18,19 @@
       points: 1
       required: false
     Tail:
-      points: 1
-      required: true
-      defaultMarkings: [ FelinidTailBasic ]
+      points: 9
+      required: false
+#      defaultMarkings: [ FelinidTailBasic ] # Wicce
     HeadTop:
-      points: 1
-      required: true
-      defaultMarkings: [ FelinidEarsBasic ]
+      points: 9 # Wicce
+      required: false # Wicce
+#      defaultMarkings: [ FelinidEarsBasic ] # Wicce
     Chest:
-      points: 4 # Frontier 1<4
+      points: 9 # Frontier 1<4 # Wicce
       required: false
     Legs:
-      points: 8 # Frontier 2<8
+      points: 9 # Frontier 2<8 # Wicce
       required: false
     Arms:
-      points: 8 # Frontier 2<8
+      points: 9 # Frontier 2<8 # Wicce
       required: false

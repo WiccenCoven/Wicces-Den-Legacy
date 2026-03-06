@@ -44,30 +44,30 @@
   onlyWhitelisted: true
   points:
     Hair:
-      points: 0
+      points: 1 # Wicce
       required: false
     FacialHair:
-      points: 0
+      points: 1 # Wicce
       required: false
     Tail:
-      points: 1
-      required: true
-      defaultMarkings: [ ArachnidAppendagesDefault ]
+      points: 9 # Wicce
+      required: false # Wicce
+#      defaultMarkings: [ ArachnidAppendagesDefault ] # Wicce
     HeadTop:
-      points: 1
+      points: 9 # Wicce
       required: false
     HeadSide:
-      points: 1
-      required: true
-      defaultMarkings: [ ArachnidCheliceraeDownwards ]
+      points: 9 # Wicce
+      required: false
+#      defaultMarkings: [ ArachnidCheliceraeDownwards ] # Wicce
     Chest:
-      points: 1
+      points: 9 # Wicce
       required: false
     Legs:
-      points: 8 # imp 2<8
+      points: 9 # imp 2<8 # Wicce
       required: false
     Arms:
-      points: 8 # imp 2<8
+      points: 9 # imp 2<8 # Wicce
       required: false
 
 - type: humanoidBaseSprite

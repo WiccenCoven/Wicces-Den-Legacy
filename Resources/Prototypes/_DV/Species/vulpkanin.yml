@@ -43,25 +43,25 @@
       points: 1
       required: false
     Tail:
-      points: 1
+      points: 9 # Wicce
       required: true
-      defaultMarkings: [ VulpTail ]
+#      defaultMarkings: [ VulpTail ] # Wicce
     Head:
-      points: 3
+      points: 9 # Wicce
       required: false
     Legs:
-      points: 1
+      points: 9 # Wicce
       required: false
     Arms:
-      points: 1
+      points: 9 # Wicce
       required: false
     Snout:
-      points: 1
+      points: 9 # Wicce
       required: false
     HeadTop:
-      points: 1
+      points: 9 # Wicce
       required: true
-      defaultMarkings: [ VulpEar ]
+#      defaultMarkings: [ VulpEar ] # Wicce
 
 - type: humanoidBaseSprite
   id: MobVulpkaninHead
