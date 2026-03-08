@@ -18020,3 +18020,12 @@ Entries:
   id: 1986
   time: '2026-03-08T15:56:04.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3394
+- author: tonotom1
+  changes:
+    - type: Tweak
+      message: >-
+        Shipguns can now be examined for damage, repaired with nanite
+        applicator, and climbed over
+  id: 1987
+  time: '2026-03-08T16:20:28.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3387
