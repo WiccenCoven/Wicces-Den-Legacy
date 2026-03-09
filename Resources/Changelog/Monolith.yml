@@ -18075,3 +18075,10 @@ Entries:
   id: 1992
   time: '2026-03-09T02:08:40.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3409
+- author: Ilya246
+  changes:
+    - type: Fix
+      message: Autopilot should no longer crash ships with slow brakes.
+  id: 1993
+  time: '2026-03-09T07:06:16.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3400
