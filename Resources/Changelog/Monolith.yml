@@ -18122,3 +18122,10 @@ Entries:
   id: 1997
   time: '2026-03-09T08:47:43.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3395
+- author: Ilya246
+  changes:
+    - type: Fix
+      message: Slightly reduced lag.
+  id: 1998
+  time: '2026-03-09T08:57:00.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3414
