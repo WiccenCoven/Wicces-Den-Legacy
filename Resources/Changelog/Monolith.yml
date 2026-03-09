@@ -18097,3 +18097,10 @@ Entries:
   id: 1994
   time: '2026-03-09T07:30:09.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3372
+- author: Kiithnaras
+  changes:
+    - type: Tweak
+      message: Hydra heating changed again, less aggressive, more consistent.
+  id: 1995
+  time: '2026-03-09T08:40:51.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3412
