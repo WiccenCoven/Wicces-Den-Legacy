@@ -18171,3 +18171,10 @@ Entries:
   id: 2004
   time: '2026-03-09T20:50:55.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3421
+- author: burrrkeye
+  changes:
+    - type: Tweak
+      message: PDV Defector has been remodelled, refitted and renamed to PDV Bastion.
+  id: 2005
+  time: '2026-03-09T22:59:29.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3346
